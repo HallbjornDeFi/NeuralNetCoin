@@ -36,39 +36,4 @@ Our official whitepaper outlines the foundation of $NNC — including tokenomics
 **Phase 4:** DAO Governance & Expansion  
 
 ---
-
-<style>
-  .roadmap-section {
-    max-width: 800px;
-    margin: auto;
-    padding: 2em;
-    background: #f9f9f9;
-    font-family: Arial, sans-serif;
-  }
-
-  .phase-card {
-    background: white;
-    border-left: 5px solid #0077cc;
-    padding: 1em 1.5em;
-    margin-bottom: 2em;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    border-radius: 6px;
-  }
-
-  .phase-card h3 {
-    margin-top: 0;
-    color: #0077cc;
-  }
-
-  .phase-card ul {
-    padding-left: 1.2em;
-  }
-
-  .phase-card li {
-    margin-bottom: 0.5em;
-  }
-</style>
-
-
-
 © 2025 NeuralNet Coin (NNC) | All Rights Reserved
