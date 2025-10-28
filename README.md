@@ -37,60 +37,38 @@ Our official whitepaper outlines the foundation of $NNC — including tokenomics
 
 ---
 
-<section style="padding: 2em; background: #f9f9f9;">
-  <h2 style="text-align: center;">📍 NeuralNet Coin Roadmap</h2>
-  <div style="max-width: 800px; margin: auto;">
-    
-    <div style="margin-bottom: 2em;">
-      <h3>🔹 Phase 1: Token Creation & Branding <span style="float:right;">Q4 2025</span></h3>
-      <ul>
-        <li>Establish brand identity and community foundation</li>
-        <li>Launch token via Moonshot on Solana</li>
-        <li>Begin social presence and verification on Solscan & Phantom</li>
-      </ul>
-    </div>
+<style>
+  .roadmap-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
 
-    <div style="margin-bottom: 2em;">
-      <h3>🔹 Phase 2: AI Utility Development <span style="float:right;">Q1–Q2 2026</span></h3>
-      <ul>
-        <li>Launch basic AI infrastructure for decentralized contributions</li>
-        <li>Introduce NeuralNet Utility Layer for real-time rewards</li>
-        <li>Pilot partnerships with open-source AI developers</li>
-        <li>Deploy reward smart contracts for transparency</li>
-      </ul>
-    </div>
+  .phase-card {
+    background: white;
+    border-left: 5px solid #0077cc;
+    padding: 1em 1.5em;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 6px;
+  }
 
-    <div style="margin-bottom: 2em;">
-      <h3>🔹 Phase 3: Neural Network Integration <span style="float:right;">Q3–Q4 2026</span></h3>
-      <ul>
-        <li>Integrate functional AI nodes powered by $NNC</li>
-        <li>Enable staking for access to community-driven datasets</li>
-        <li>Launch NeuralNet API for developer integration</li>
-        <li>Prepare for cross-platform data liquidity</li>
-      </ul>
-    </div>
+  .phase-card h3 {
+    margin-top: 0;
+    color: #0077cc;
+  }
 
-    <div style="margin-bottom: 2em;">
-      <h3>🔹 Phase 4: DAO Governance & Expansion <span style="float:right;">2027</span></h3>
-      <ul>
-        <li>Launch NeuralNet DAO for proposal voting</li>
-        <li>Enable treasury management via smart contracts</li>
-        <li>Expand partnerships with AI & blockchain research</li>
-        <li>Advance toward full decentralization</li>
-      </ul>
-    </div>
+  .phase-card ul {
+    padding-left: 1.2em;
+  }
 
-    <div style="margin-bottom: 2em;">
-      <h3>🔹 Phase 5: Long-Term Sustainability <span style="float:right;">Beyond 2027</span></h3>
-      <ul>
-        <li>Introduce scalable AI model hosting</li>
-        <li>Implement deflationary mechanisms & staking rewards</li>
-        <li>Foster global participation through education & transparency</li>
-      </ul>
-    </div>
+  .phase-card li {
+    margin-bottom: 0.5em;
+  }
+</style>
 
-  </div>
-</section>
 
 
 © 2025 NeuralNet Coin (NNC) | All Rights Reserved
