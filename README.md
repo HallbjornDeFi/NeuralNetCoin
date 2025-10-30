@@ -25,7 +25,7 @@ By incentivizing data contribution, computational participation, and AI developm
 
 ## 📜 Whitepaper
 Our official whitepaper outlines the foundation of $NNC — including tokenomics, AI utility, governance, and future integrations.  
-**Coming soon:** [NeuralNet Coin Whitepaper PDF]
+
 
 ---
 
