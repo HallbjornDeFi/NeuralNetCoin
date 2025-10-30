@@ -13,7 +13,7 @@ Designed for the next era of AI-driven ecosystems, $NNC connects human innovatio
 - **X (Twitter):** https://x.com/NeuralNetCoin
 - **Token Address:** 5qhEtzYNH7QP5WmVbthWksAfqhpGj7c2FfmZrUc3moon
 - **Blockchain:** Solana
-- **Creator Fee:** 0.15%
+- **Creator Fee:** 3%-2%
 
 ---
 
@@ -36,4 +36,6 @@ Our official whitepaper outlines the foundation of $NNC — including tokenomics
 **Phase 4:** DAO Governance & Expansion  
 
 ---
+
+
 © 2025 NeuralNet Coin (NNC) | All Rights Reserved
