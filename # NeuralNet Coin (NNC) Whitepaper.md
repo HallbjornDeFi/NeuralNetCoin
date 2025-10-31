@@ -42,6 +42,23 @@ The ultimate vision is to transform AI from a corporate product into a **global 
 
 ---
 
+### **🔗 Contract Information**
+
+**Token Name:** NeuralNet Coin  
+**Symbol:** NNC  
+**Network:** Solana (SPL Token Standard)  
+**Mint Address:** 5qhEtzYNH7QP5WmVbthWksAfqhpGj7c2FfmZrUc3moon  
+**Decimals:** 9  
+**Total Supply:** 1,000,000,000 NNC  
+**Launch Platform:** Moonshot (October 29, 2025)  
+**Explorer:** [https://solscan.io/token/5qhEtzYNH7QP5WmVbthWksAfqhpGj7c2FfmZrUc3moon](https://solscan.io/token/5qhEtzYNH7QP5WmVbthWksAfqhpGj7c2FfmZrUc3moon)
+
+> This address represents the official and only verified mint of NeuralNet Coin ($NNC) on the Solana blockchain.  
+> All liquidity pools, exchange listings, and integrations must reference this contract address to ensure authenticity and prevent imitation tokens.  
+> Ownership and tokenomics are fully transparent via the Solana blockchain explorer.
+
+---
+
 ### **2. Allocation Breakdown**
 
 | Category | Allocation | Purpose |
@@ -243,12 +260,12 @@ Rewards scale dynamically with transaction volume, engagement, and emission cycl
 The NeuralNet Coin ecosystem thrives on transparency, verified data, and open collaboration.  
 Developers, creators, and investors are invited to participate in building the world’s first **Social AI-powered decentralized network**.  
 
-**Official Links**
-- 🧠 **X (Twitter):** [https://x.com/neuralnetcoin?s=21&t=9mwjGDJHYEukxEQ84lpECA](https://x.com/neuralnetcoin?s=21&t=9mwjGDJHYEukxEQ84lpECA)  
-- 💬 **Telegram:** [https://t.me/Neural102725](https://t.me/Neural102725)  
-- 💻 **GitHub Repository:** [https://github.com/HallbjornDeFi/NeuralNetCoin](https://github.com/HallbjornDeFi/NeuralNetCoin)  
+**Official Links**  
+🧠 **X (Twitter):** [NeuralNet Coin on X](https://x.com/neuralnetcoin?s=21&t=9mwjGDJHYEukxEQ84lpECA)  
+💬 **Telegram:** [NeuralNet Official Chat](https://t.me/Neural102725)  
+💻 **GitHub Repository:** [HallbjornDeFi / NeuralNetCoin](https://github.com/HallbjornDeFi/NeuralNetCoin)  
 
-**Next Steps**
+**Next Steps**  
 1. Join our official communities for updates and developer discussions.  
 2. Participate in DAO governance and proposal voting once activated.  
 3. Follow the **CertiK audit report** and transparency dashboard after launch.  
