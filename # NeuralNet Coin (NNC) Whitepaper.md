@@ -50,7 +50,7 @@ The ultimate vision is to transform AI from a corporate product into a **global 
 **Mint Address:** 5qhEtzYNH7QP5WmVbthWksAfqhpGj7c2FfmZrUc3moon  
 **Decimals:** 9  
 **Total Supply:** 1,000,000,000 NNC  
-**Launch Platform:** Moonshot (October 29, 2025)  
+**Launch Platform:** Moonshot (October 27, 2025)  
 **Explorer:** [https://solscan.io/token/5qhEtzYNH7QP5WmVbthWksAfqhpGj7c2FfmZrUc3moon](https://solscan.io/token/5qhEtzYNH7QP5WmVbthWksAfqhpGj7c2FfmZrUc3moon)
 
 > This address represents the official and only verified mint of NeuralNet Coin ($NNC) on the Solana blockchain.  
