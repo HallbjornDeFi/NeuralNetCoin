@@ -38,7 +38,7 @@ The ultimate vision is to transform AI from a corporate product into a global co
 | Network | Solana (SPL Token Standard) |
 | Total Supply | 1,000,000,000 NNC |
 | Creator Fee | Dynamic — starts at 3%, drops to 2% upon full social integration |
-| Decimals | 9 |
+| Decimals | 6 |
 
 ---
 
