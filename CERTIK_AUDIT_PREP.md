@@ -18,7 +18,7 @@ This document outlines the technical, governance, and compliance framework prepa
 - **Launch Platform:** Moonshot  
 - **Total Supply:** 1,000,000,000 NNC  
 - **Creator Fee:** 3% (reducing to 2% upon DAO activation milestone)  
-- **Decimals:** 9  
+- **Decimals:** 6  
 
 ---
 
