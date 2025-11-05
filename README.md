@@ -1,4 +1,4 @@
-# NeuralNet Coin (NNC)  
+# **NeuralNet Coin (NNC)**  
 ### “Building a Transparent, Ethical Future for Artificial Intelligence”  
 
 ---
@@ -8,22 +8,23 @@ NeuralNet Coin ($NNC) is a decentralized, AI-driven cryptocurrency built on the 
 It bridges human creativity and machine intelligence through a reward-based social ecosystem — where verified engagement, data contribution, and collaboration power collective growth.  
 
 Deployed via a **verified Token-2022 mint**, NeuralNet Coin is transparent, immutable, and fully auditable on-chain.  
-All token parameters, creator-fee logic, and metadata are publicly viewable on **Solscan** and **Solana.FM**, ensuring long-term compliance and community trust.  
+All token parameters, metadata, and governance frameworks are publicly viewable on **Solscan** and **Solana.FM**, ensuring long-term compliance and community trust.  
 
 ---
 
 ## 🔍 Mission  
 To create a **decentralized Social-AI economy** where people, devices, and algorithms cooperate through fair, transparent value exchange.  
-Every authentic action — from chat interactions to data validation — earns measurable rewards in $NNC, fueling an open and ethical AI infrastructure.  
+Every authentic action — from chat interactions to AI training contributions — earns measurable rewards in $NNC, fueling an open and ethical AI infrastructure.  
 
 ---
 
 ## 📘 Documentation  
-- **Whitepaper (2025 Edition — Token-2022 Rev 2):** Comprehensive overview of tokenomics, governance, and AI-powered utility.  
-- **Roadmap (2025 – 2029):** CertiK-aligned development plan with measurable milestones and compliance checkpoints.  
+- **Whitepaper (2025 Edition — Token-2022 Rev 3 DeFi Edition):** Complete overview of tokenomics, governance, and AI-powered utility.  
+- **Roadmap (2025 – 2029):** CertiK-aligned, DeFi-integrated development plan with measurable milestones.  
+- **CertiK Audit Preparation:** Technical, governance, and compliance summary for formal verification.  
 - **Manifesto (Substack):** Declaration of ethics, transparency, and decentralized integrity guiding NeuralNet Coin.  
 
-**GitHub Repository:** [https://github.com/HallbjornDeFi/NeuralNetCoin](https://github.com/HallbjornDeFi/NeuralNetCoin)  
+**GitHub Repository:**(https://github.com/HallbjornDeFi/NeuralNetCoin)  
 
 ---
 
@@ -33,14 +34,14 @@ Every authentic action — from chat interactions to data validation — earns m
 | **Token Name:** | NeuralNet Coin |
 | **Symbol:** | NNC |
 | **Network:** | Solana — Token-2022 Standard |
-| **Mint Address:** | FwgA37Gtg7SqtpNbyu6Sn8qimUAbwpfGDsBHp6JpjwFd |
-| **Creator Fee:** | Fixed 2 % (on-chain transfer fee) |
-| **Decimals:** | 6 |
+| **Mint Address:** | `BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF` |
+| **Transfer / Creator Fee:** | 0 % (on-chain); revenue via DeFi yield model |
+| **Decimals:** | 9 |
 | **Total Supply:** | 1 000 000 000 NNC |
 | **Launch Date:** | November 2025 (Verified Mint) |
 
 > ✅ This is the official and only verified mint of NeuralNet Coin ($NNC) on Solana.  
-> Metadata is live on IPFS, and all authorities are securely held by the project’s administrative wallet.  
+> Metadata is live on IPFS, and all authorities are held by the project’s administrative wallet: `4D4ZnJ6TZJdmUZQi8WmiKJN57Pxe5pUjFJUSsVJuD5Mr`.
 
 ---
 
@@ -51,53 +52,53 @@ Core principles:
 - **Transparency:** Every token movement and DAO decision is on-chain.  
 - **Security:** Smart contracts undergo independent audit and public verification.  
 - **Ethical AI:** Rewards prioritize verified human input over opaque algorithmic systems.  
-- **Community Governance:** Decisions executed by a hybrid DAO with a 5 000 NNC minimum stake for proposal submission.  
+- **Community Governance:** Hybrid DAO model with a 5 000 NNC stake minimum for proposal submission.  
 
 ---
 
 ## 🧭 Roadmap Summary  
-**Phase 1 (Q4 2025 – Q1 2026):** Foundation Launch — Token-2022 creation, Solscan verification, Social Alpha beta.  
-**Phase 2 (Q2 – Q3 2026):** NeuralNet Assistant Integration — Pay-to-chat & train-to-earn AI deployment.  
-**Phase 3 (Q4 2026 – Q2 2027):** Social Expansion — Full Social-AI ecosystem and creator rewards.  
-**Phase 4 (Q3 – Q4 2027):** DAO Governance Launch — Hybrid Treasury Council and community grants.  
-**Phase 5 (2028 – 2029):** Industry Integration — Agriculture, Healthcare, IoT, and Education applications with buyback-and-burn initiatives.  
+**Phase 1 (Q4 2025 – Q1 2026):** Foundation & Verification — Token-2022 deployment, metadata verification, Social Alpha prototype.  
+**Phase 2 (Q2 – Q3 2026):** NeuralNet Assistant Integration — Pay-to-chat and train-to-earn AI ecosystem with staking.  
+**Phase 3 (Q4 2026 – Q2 2027):** Social Ecosystem Expansion — Creator rewards and on-chain reputation systems.  
+**Phase 4 (Q3 – Q4 2027):** DAO Governance Scaling — Hybrid multi-sig Treasury Council and community grants.  
+**Phase 5 (2028 – 2029):** Industry Integration — AI applications across agriculture, healthcare, IoT, education, and buyback-and-burn initiatives.  
 
-[📄 Read Full Roadmap →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_ROADMAP_2025.md)  
+[📄 Read Full Roadmap →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_ROADMAP_2025_UPDATED.md)
 
 ---
 
 ## 🧾 CertiK Pre-Audit Disclosure  
-NeuralNet Coin ($NNC) is deployed via Solana’s **Token-2022 program**, with immutable parameters and a fixed 2 % on-chain creator fee.  
-All supply, authorities, and metadata are permanently verifiable on-chain.  
+NeuralNet Coin ($NNC) operates under the Solana Token-2022 framework with **0 % on-chain fees** and **off-chain DeFi revenue generation** (via liquidity-pool fees, staking yield, and vault automation).  
+All token supply, authorities, and metadata are publicly verifiable on-chain.  
 
 **CertiK Audit Focus:**  
-- Smart-contract integrity and Token-2022 extensions.  
-- DAO Treasury Council structure and multi-sig governance.  
-- Team KYC & identity validation.  
-- Continuous Skynet risk monitoring and reporting.  
+- Token-2022 configuration and metadata integrity.  
+- Treasury Council multi-sig structure and governance security.  
+- Team KYC and identity verification.  
+- Continuous Skynet risk monitoring and transparency reporting.  
 
 ---
 
 ## 🛡️ Security & Compliance Philosophy  
-Security is prioritized over expansion. Before exchange listing or cross-chain integration, NeuralNet Coin undergoes:  
+Security and transparency come before expansion. Before exchange listing or cross-chain integration, NeuralNet Coin undergoes:  
 1. **Independent audit verification** (CertiK).  
 2. **Public reporting** of results and on-chain metrics.  
 3. **DAO approval** for major governance or emission changes.  
 
-NeuralNet Coin adheres to U.S. SEC and EU MiCA digital-asset guidelines to maintain legal and operational transparency.  
+NeuralNet Coin follows U.S. SEC and EU MiCA digital-asset guidelines to maintain legal and operational transparency.  
 
 ---
 
 ## 🌐 Official Links & Transparency  
-- **GitHub (Repository & Docs):** [https://github.com/HallbjornDeFi/NeuralNetCoin](https://github.com/HallbjornDeFi/NeuralNetCoin)  
-- **X (Twitter):** [https://x.com/neuralnetcoin](https://x.com/neuralnetcoin)  
-- **Telegram (Announcements):** [https://t.me/Neural102725](https://t.me/Neural102725)  
-- **Substack (Manifesto & Articles):** [https://substack.com/@neuralnetcoin](https://substack.com/@neuralnetcoin)  
-- **Discord (Coming Soon):** Official NeuralNet Coin community hub under construction.  
+- **GitHub (Repository & Docs):**(https://github.com/HallbjornDeFi/NeuralNetCoin)  
+- **X (Twitter):** (https://x.com/neuralnetcoin)  
+- **Telegram (Announcements):** (https://t.me/Neural102725)  
+- **Substack (Manifesto & Articles):**(https://substack.com/@neuralnetcoin)  
+- **Discord (Coming Soon):** Role-gated community hub to be launched after CertiK audit verification.  
 
 Please verify all links through the official GitHub repository to avoid impersonation or fraud.  
 
 ---
 
 © 2025 NeuralNet Coin (NNC)  
-All Rights Reserved.  
+*All Rights Reserved.*
