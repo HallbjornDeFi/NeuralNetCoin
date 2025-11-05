@@ -15,11 +15,11 @@ This document outlines the technical, governance, and compliance framework prepa
 - **Symbol:** NNC  
 - **Network:** **Solana — Token-2022 Standard**  
 - **Mint Address:** `BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF`  
-- **Decimals:** **6**  
+- **Decimals:** **9**  
 - **Total Supply:** **1,000,000,000 NNC**  
 - **On-Chain Transfer / Creator Fee:** **0%**  
 - **Launch:** Verified Token-2022 mint (November 2025)  
-- **Explorer:** https://solscan.io/token/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF
+- **Explorer:**(https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF)
 
 > Notes:  
 > • Token-2022 extensions in use: **metadata** (and other standard Solana extensions as applicable), **not** the transfer-fee extension.  
