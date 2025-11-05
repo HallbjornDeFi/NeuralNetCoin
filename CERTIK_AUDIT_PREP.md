@@ -4,7 +4,7 @@
 NeuralNet Coin ($NNC) is a decentralized, AI-integrated cryptocurrency built on the **Solana Token-2022** standard.  
 The project connects human contribution and machine intelligence via verifiable, on-chain incentives — rewarding authentic engagement, data contribution, and collaboration in a transparent **Social-AI Economy**.
 
-This document outlines the technical, governance, and compliance framework prepared for **CertiK** verification and audit review.
+This document outlines the technical, governance, and compliance framework prepared for **CertiK** verification and audit review, updated to match the **Whitepaper 2025 — Rev 3 (DeFi Edition)**.
 
 ---
 
@@ -14,42 +14,66 @@ This document outlines the technical, governance, and compliance framework prepa
 - **Token Name:** NeuralNet Coin  
 - **Symbol:** NNC  
 - **Network:** **Solana — Token-2022 Standard**  
-- **Mint Address:** `FwgA37Gtg7SqtpNbyu6Sn8qimUAbwpfGDsBHp6JpjwFd`  
+- **Mint Address:** `BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF`  
 - **Decimals:** **6**  
 - **Total Supply:** **1,000,000,000 NNC**  
-- **Creator / Transfer Fee:** **Fixed 2%** (Token-2022 transfer-fee extension)  
+- **On-Chain Transfer / Creator Fee:** **0%**  
 - **Launch:** Verified Token-2022 mint (November 2025)  
-- **Explorer:** https://solscan.io/token/FwgA37Gtg7SqtpNbyu6Sn8qimUAbwpfGDsBHp6JpjwFd
+- **Explorer:** https://solscan.io/token/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF
 
 > Notes:  
-> • Token-2022 extensions in use: **transfer-fee**, **metadata**.  
+> • Token-2022 extensions in use: **metadata** (and other standard Solana extensions as applicable), **not** the transfer-fee extension.  
 > • Metadata is live on IPFS.  
-> • Authorities (mint, transfer-fee config, withdraw) are transparently held by the project’s administrative wallet per whitepaper.
+> • Mint/Freeze/Update authorities are held by the project’s administrative wallet per whitepaper.  
+> • Value capture is moved off token-level fees and into **DeFi-based revenue** (liquidity-pool fees, treasury staking, vault automation).
 
 ---
 
 ## Audit Objectives
 
 ### 1) Smart Contract / Program-Level Integrity
-- Confirm correct configuration of Token-2022 **transfer-fee** parameters (2% fixed) and authority roles.  
-- Validate mint settings (supply, decimals) match the **Tokenomics** in the whitepaper.  
-- Verify metadata URI integrity (IPFS) and canonical identity on chain explorers.  
-- Ensure any future emission, staking, and treasury flows adhere to documented governance constraints.
+- Verify that the Token-2022 mint configuration (supply, decimals, authorities) exactly matches the tokenomics published in the **Rev 3 Whitepaper**.  
+- Confirm that **no token-level transfer fee** is enabled and that this matches the public documentation (0% for exchange compatibility).  
+- Validate the on-chain metadata URI and IPFS asset for canonical identity on Solana explorers.  
+- Review any auxiliary programs (staking, treasury distribution, or vault integration) for correct authority separation.
 
 ### 2) Security & Compliance
-- Assess resilience against Solana-specific risks (authority misuse, incorrect extension configs, fee-calc edge cases).  
-- Validate ownership practices and role separation (mint/config/withdraw) to minimize privilege escalation.  
-- Confirm compliance posture aligned with **U.S. SEC** and **EU MiCA** guidelines (disclosures, governance clarity, treasury transparency).
+- Assess Solana-specific configuration risks (authority misuse, unrevoked mint authority, metadata update risk).  
+- Ensure that operational wallets (Treasury Wallet, Team Operations Wallet) will be protected behind **multi-sig** before mainnet-scale emissions.  
+- Confirm that the project’s posture aligns with **utility-token positioning** in U.S./EU frameworks — i.e., no guaranteed returns, DAO-approved distributions, and transparent treasury reporting.  
+- Document how DeFi-based revenue (LP fees and staking yield) flows back to treasury without enabling a transfer tax on the token.
 
 ### 3) DAO Governance
-- Verify proposal threshold of **5,000 NNC** to submit.  
-- Review **hybrid governance**: community DAO voting + **Treasury Council multi-sig** for execution within DAO-approved budgets.  
-- Evaluate whale-mitigation (weighted caps / quorum) and on-chain auditability of treasury actions.
+- Review the **hybrid governance** model: community token voting + **Treasury Council multi-sig** for execution.  
+- Verify the proposal threshold of **5,000 NNC** to submit governance proposals.  
+- Note that **treasury voting and spending rights** are **deferred** until the Social-AI identity/verification layer is live, to mitigate sybil attacks.  
+- Evaluate anti-whale and quorum rules to ensure broad participation and to reduce governance capture risk.
 
 ### 4) Ecosystem Functionality
-- Review vesting and emission schedules per deflationary model and halving plan.  
-- Validate staking/reward distribution logic against Proof-of-Contribution principles (as documented).  
-- Confirm readiness for **CertiK Skynet** live monitoring (post-verification) and ongoing risk telemetry.
+- Validate vesting and emission schedules as described in the whitepaper: multi-year unlocks, halving schedule, and ecosystem rewards.  
+- Check that “engage-to-earn” and “train-to-earn” rewards can be funded from the **Ecosystem & Rewards** allocation and, later, topped up from DeFi income.  
+- Confirm readiness for **CertiK Skynet** for live monitoring of treasury wallets, DAO votes, and LP addresses.
+
+---
+
+## DeFi-Based Revenue (For Auditor Reference)
+
+Because the project removed the on-chain 2% fee, auditors should be aware of the new revenue sources:
+
+1. **Official NNC/SOL Liquidity Pool**  
+   - Treasury and Team wallets provide liquidity.  
+   - DEX swap fees (~0.25–0.30%) generate continuous protocol income.  
+   - Target split: **70% to DAO Treasury / 30% to Team Ops**.
+
+2. **Treasury Staking / Lending**  
+   - Idle SOL/USDC is delegated (Marinade, Jito, Solend, Marginfi).  
+   - Yield is reported quarterly and follows the same 70/30 split.
+
+3. **Public Staking Pools**  
+   - Funded from Ecosystem & Rewards.  
+   - Team can stake alongside the community; rewards are on-chain and auditable.
+
+Auditors should confirm that all of the above are routed through **published, tagged wallets** and that multi-sig is enforced before large balances are held.
 
 ---
 
@@ -58,35 +82,39 @@ This document outlines the technical, governance, and compliance framework prepa
 All materials are public and timestamped for transparency.
 
 ### Documentation Links
-- **Whitepaper (2025 — “Social AI First”, Token-2022 Rev 2):** `NNC_WHITEPAPER_2025_UPDATED.md`  
-- **Roadmap (2025–2029):** `NNC_ROADMAP_2025.md`  
+- **Whitepaper (2025 — “Social AI First”, Token-2022 Rev 3, DeFi Edition):** `NNC_WHITEPAPER_2025_REV3.md`  
+- **Roadmap (2025–2029, DeFi-Aligned):** `NNC_ROADMAP_2025_UPDATED.md`  
+- **CertiK Audit Prep (this doc):** `CERTIK_PREP.md`  
 - **Project README:** `README.md`
 
-> Repository root: **https://github.com/HallbjornDeFi/NeuralNetCoin**
+**Repository root:** https://github.com/HallbjornDeFi/NeuralNetCoin
 
 ### Official Project Links
 - **GitHub:** https://github.com/HallbjornDeFi/NeuralNetCoin  
 - **X (Twitter):** https://x.com/neuralnetcoin  
-- **Substack:** https://substack.com/@neuralnetcoin  
 - **Telegram:** https://t.me/Neural102725  
-- **Discord:** Coming soon (under security setup and verification)
+- **Substack:** https://substack.com/@neuralnetcoin  
+- **Discord:** to be enabled after role-based and wallet-based verification is audited
 
 ---
 
 ## CertiK Readiness Summary
-- **On-chain transparency:** Token-2022 mint, fee params (2%), authorities, and metadata are publicly verifiable on Solscan / Solana.FM.  
-- **Governance clarity:** Fixed **2%** creator fee (not subject to voting); DAO proposal threshold **5,000 NNC**; hybrid **Treasury Council multi-sig** executes within DAO-approved budgets.  
-- **Tokenomics alignment:** Supply, decimals, vesting, and emissions match the whitepaper’s Token-2022 Rev 2 specification.  
-- **Security posture:** Audit-first approach; sybil-resistant engagement scoring; roadmap aligned to CertiK’s maturity model.  
-- **KYC & monitoring:** Team KYC and **Skynet** activation planned alongside DAO/Discord launch milestones.
+
+- **On-chain transparency:** Token-2022 mint, authorities, and metadata are publicly viewable on Solscan.  
+- **Fee policy:** Token-level transfer fee is **0%**; all value capture is performed at the **DeFi / application** layer, which is easier to audit and exchange-friendly.  
+- **Governance clarity:** Proposal threshold **5,000 NNC**; hybrid DAO + Treasury Council; treasury spending gated until Social-AI identity is live.  
+- **Tokenomics alignment:** Supply, decimals, vesting, and emissions match Whitepaper Rev 3.  
+- **Security posture:** Audit-first; multi-sig planned; sybil-aware governance; roadmap includes Skynet for continuous monitoring.  
+- **KYC & monitoring:** Team KYC and **Skynet** activation scheduled after initial governance rollout so CertiK can monitor DAO and treasury flows in real time.
 
 ---
 
 ## Next Steps
-1. Finalize Discord-based DAO verification, role gating, and Treasury Council signer framework.  
-2. Submit Token-2022 configuration and documentation package for **CertiK Solana audit** intake.  
-3. Enable **Skynet** continuous monitoring and publish live dashboard post-audit.  
-4. Announce verification across GitHub releases, Substack, and official social channels.
+
+1. **Publish final wallet list** (Admin, Treasury, Team Ops, LP Provider) in the GitHub repo and pin it in Telegram.  
+2. **Submit** Token-2022 configuration, whitepaper Rev 3, and roadmap to **CertiK** as the audit intake package.  
+3. **Enable Skynet** after audit completion for live monitoring of governance and treasury events.  
+4. **Announce verification** across GitHub Releases, X, Telegram, and Substack.
 
 ---
 
