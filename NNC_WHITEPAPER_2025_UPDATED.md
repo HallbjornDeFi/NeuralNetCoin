@@ -54,7 +54,7 @@ The ultimate vision is to transform AI from a corporate product into a global co
 **Decimals:** 9  
 **Total Supply:** 1,000,000,000 NNC  
 **Launch Platform:** Verified Token-2022 Mint (November 2025)  
-**Explorer:** https://solscan.io/token/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF
+**Explorer:**(https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF)
 
 > This address represents the official and only verified mint of NeuralNet Coin ($NNC) on Solana.  
 > Metadata is live on IPFS, and all authorities are transparently held by the project’s main administrative wallet.
