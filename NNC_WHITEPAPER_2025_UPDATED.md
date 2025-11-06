@@ -338,7 +338,7 @@ The NeuralNet Coin ecosystem thrives on transparency, verified data, and collabo
 
 **Official Links**  
 🧠 X (Twitter): https://x.com/neuralnetcoin  
-💬 Telegram: https://t.me/Neural102725  
+💬 Telegram:(https://t.me/NeuralNetApp)  
 💻 GitHub: https://github.com/HallbjornDeFi/NeuralNetCoin
 
 **Next Steps**  
