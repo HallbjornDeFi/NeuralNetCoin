@@ -92,7 +92,7 @@ All materials are public and timestamped for transparency.
 ### Official Project Links
 - **GitHub:** https://github.com/HallbjornDeFi/NeuralNetCoin  
 - **X (Twitter):** https://x.com/neuralnetcoin  
-- **Telegram:** https://t.me/Neural102725  
+- **Telegram:** https://t.me/NeuralNetApp
 - **Substack:** https://substack.com/@neuralnetcoin  
 - **Discord:** to be enabled after role-based and wallet-based verification is audited
 
