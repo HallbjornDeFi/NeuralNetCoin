@@ -92,7 +92,7 @@ NeuralNet Coin follows U.S. SEC and EU MiCA digital-asset guidelines to maintain
 ## 🌐 Official Links & Transparency  
 - **GitHub (Repository & Docs):**(https://github.com/HallbjornDeFi/NeuralNetCoin)  
 - **X (Twitter):** (https://x.com/neuralnetcoin)  
-- **Telegram (Announcements):** (https://t.me/Neural102725)  
+- **Telegram (Announcements):** (https://t.me/NeuralNetApp)
 - **Substack (Manifesto & Articles):**(https://substack.com/@neuralnetcoin)  
 - **Discord (Coming Soon):** Role-gated community hub to be launched after CertiK audit verification.  
 
