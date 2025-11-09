@@ -6,7 +6,8 @@
 ## 🧠 Overview  
 NeuralNet Coin ($NNC) is a decentralized, AI-integrated cryptocurrency built on the **Solana Token-2022** standard.  
 It bridges human creativity and machine intelligence through a transparent reward-based economy — where verified engagement, contribution, and collaboration generate measurable value.
-[📄 Read Full Whitepaper →]
+
+[📄 Read Full Whitepaper →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_WHITEPAPER_2026_UPDATED.md)
 
 Deployed via a **verified Token-2022 mint**, NeuralNet Coin is fully auditable on-chain.  
 All parameters, metadata, and governance structures are publicly visible on **[Solana Explorer](https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF)**, ensuring long-term transparency and community trust.  
