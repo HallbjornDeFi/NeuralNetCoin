@@ -1,362 +1,555 @@
-# **NeuralNet Coin (NNC) Whitepaper**  
-### *2025 Edition — “Social AI First”*  
-### *(Token-2022 Revision — Rev 3 — DeFi Revenue Model)*
+# 🧠 NeuralNet Coin (NNC) Whitepaper  
+### 2026 Edition — “Social AI First”  
+### Rev 4 — DeFi & Creator-Economy Expansion | Token-2022 Standard  
+
+> “The attention economy reborn through decentralized intelligence.”  
+> “Where every human connection trains the intelligence of tomorrow.”
 
 ---
 
-## **I. Introduction**
+## 🪙 I. Introduction
+NeuralNet Coin (NNC) powers a **Social-AI Economy** — an open ecosystem where human creativity, interaction, and verified contribution generate measurable value for artificial-intelligence development.  
+Unlike centralized social networks that monetize engagement in isolation, NNC’s **proof-of-contribution** model ensures that the individuals and communities who generate data, insight, and creativity share in the economic upside.
 
-NeuralNet Coin (NNC) is a decentralized cryptocurrency built on the Solana blockchain that powers a new generation of AI-driven social and conversational ecosystems — where human creativity, communication, and intelligence generate measurable value.
-
-For decades, centralized platforms monetized user engagement while creators and communities received little in return. NeuralNet Coin reverses that system by giving users ownership over their data, influence, and digital work.
-
-By merging blockchain transparency, tokenized incentives, and decentralized AI, NNC forms a **Social-AI Economy** — a living ecosystem where every post, chat, and collaboration fuels collective intelligence and economic empowerment.
+The 2026 Edition (Rev 4) unifies the 2025 Whitepaper with the full Strategic Analysis, Presale Blueprint, DeFi Treasury Model, Governance Roadmap, and Industry Use Cases — expanded to include healthcare, education, industrial automation, and IoT.
 
 ---
 
-## **II. Vision**
+## 🧩 II. Strategic Analysis — NNC Positioning
+### 1️⃣ Core Vision
+NNC bridges **human creativity** and **AI-driven social ecosystems**.  
+Its “Social AI First” mission appeals to:
+- AI developers and data scientists seeking fair, decentralized monetization.  
+- Everyday users and creators who want ownership of their data and rewards for their contributions.
 
-NeuralNet Coin envisions a human-centered AI economy built on equity, transparency, and collaboration — where people and machines evolve together through decentralized contribution.
-
-The NeuralNet ecosystem ensures that:  
-- People own their digital presence and creations.  
-- AI grows transparently, shaped by collective community input.  
-- Contributors and creators earn fairly for their time and data.  
-- Governance and moderation are decentralized and community-driven.
-
-The ultimate vision is to transform AI from a corporate product into a global cooperative intelligence system — one that rewards creativity, participation, and integrity.
+> **Reframed Purpose:** NNC is the *social layer of the AI economy* — the token that measures and rewards human-machine interaction.  
+> **Tagline:** “The attention economy reborn through decentralized intelligence.”
 
 ---
 
-## **III. Tokenomics**
+### 2️⃣ Tokenomics Overview
+To reach top-tier market credibility, NNC’s economics combine:  
+- Fixed 1 B supply for scarcity.  
+- Progressive burn or buyback mechanics tied to platform activity.  
+- DeFi utility through staking, treasury yield, and fee sharing.  
+- Creator and data rewards anchored in verifiable engagement metrics.
 
-### 1. Token Overview
+---
 
-| Parameter | Value |
-|---|---|
-| Token Name | NeuralNet Coin |
+### 3️⃣ Ecosystem & Utility Framework
+NNC creates a circular economy where **verified interaction = reward**.  
+Core pillars:  
+- **AI Creator Hub** — deploy monetizable AI agents.  
+- **DecentraNet Marketplace** — digital services paid in NNC.  
+- **Open Health Rails** — transparent health data infrastructure.  
+- **Reputation NFTs** — proof of trusted contribution.  
+- **API Integration Layer** — third-party apps use NNC for AI micro-payments.
+
+---
+
+## 💬 Engage-to-Earn — Off-Chain Credit-to-NNC Model
+To reward valuable human participation while maintaining efficiency and security, NeuralNet Coin introduces a **two-layer Social-AI reward system** built around *Engagement Credits* and *NNC redemption*.
+
+### 1️⃣ Purpose
+The Engage-to-Earn (E2E) mechanism lets people earn recognition for verified social-AI interactions — moderation, annotation, or collaboration with NeuralNet AI agents — without immediate on-chain minting.  
+It protects the network from spam, simplifies compliance, and allows rapid iteration.
+
+### 2️⃣ Two-Layer Architecture
+1. **Engagement Credits (Off-Chain)**  
+  • Issued instantly for verified actions inside NNC apps.  
+  • Stored off-chain for speed and flexibility.  
+  • Audited by the verification engine for authenticity and reputation.  
+
+2. **NNC Redemption (On-Chain)**  
+  • Credits may be redeemed for real NNC after passing identity and anti-sybil checks.  
+  • Redemptions occur in fixed “epochs” set by the DAO treasury.  
+
+This structure rewards users fast while keeping the on-chain supply disciplined.
+
+### 3️⃣ Earning Flow
+1. **Action:** user performs a social-AI task (moderation, labeling, content creation, validation).  
+2. **Scoring:** AI + human verifier network assigns Engagement Credits.  
+3. **Review:** anomaly and reputation filters remove low-quality activity.  
+4. **Redemption:** approved credits convert to NNC at the epoch’s Redemption Rate.
+
+### 4️⃣ Redemption Rate & Epochs
+`NNC owed = Credits × Redemption Factor(epoch)`  
+- Rate set by DAO each epoch (weekly/monthly).  
+- Depends on credit volume, treasury budget, and market conditions.  
+- Unredeemed credits roll forward automatically.
+
+### 5️⃣ Reputation Tiers
+| Tier | Status | Multiplier |
+|:--|:--|:--:|
+| I | Verified Experts | ×1.5 |
+| II | Standard Users | ×1.0 |
+| III | New Accounts | Capped daily earnings |
+
+Reputation increases with consistency, peer validation, and low dispute rates.
+
+### 6️⃣ Safeguards
+- Daily off-chain credit caps & 7-day redemption cooldown.  
+- Multi-device/IP correlation to detect farming.  
+- Treasury reward ceilings per epoch.  
+- DAO emergency pause for investigations.
+
+### 7️⃣ Governance & Transparency
+Treasury publishes a public dashboard of: total credits redeemed, NNC distributed, conversion rates, and flagged accounts.  
+All final NNC transactions remain on-chain and auditable.
+
+### 8️⃣ Benefits
+- **Security:** prevents on-chain spam and farm attacks.  
+- **Compliance:** off-chain points are platform rewards, not securities.  
+- **Scalability:** no gas costs for frequent actions.  
+- **Fairness:** only validated human effort enters the on-chain economy.
+
+### 9️⃣ Messaging
+> “Users earn **Engagement Credits** for meaningful social-AI participation.  
+> Validated credits can later be redeemed for **NeuralNet Coin (NNC)** subject to reputation and availability.”
+
+---
+
+## 💠 IV. Tokenomics (Full Model)
+| Property | Value |
+|:--|:--|
+| Network | Solana Token-2022 |
 | Symbol | NNC |
-| Network | **Solana — Token-2022 Standard** |
-| Total Supply | **1,000,000,000 NNC** |
-| Creator / On-Chain Transfer Fee | **0% (removed; replaced by DeFi-based revenue)** |
-| Decimals | **9** |
-
-> The 2% creator fee present in earlier drafts has been removed to improve exchange compatibility and to move value capture to application-level and DeFi-level mechanisms.
+| Total Supply | 1 000 000 000 (fixed) |
+| Decimals | 9 |
+| Transfer Fee | 0 % |
 
 ---
 
-### 🔗 2. Contract Information
+### 4.2 Allocations & Vesting
 
-**Token Name:** NeuralNet Coin  
-**Symbol:** NNC  
-**Network:** Solana — Token-2022 Standard  
-**Mint Address:** **BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF**  
-**Decimals:** 9  
-**Total Supply:** 1,000,000,000 NNC  
-**Launch Platform:** Verified Token-2022 Mint (November 2025)  
-**Explorer:**(https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF)
-
-> This address represents the official and only verified mint of NeuralNet Coin ($NNC) on Solana.  
-> Metadata is live on IPFS, and all authorities are transparently held by the project’s main administrative wallet.
-
-**Official Wallets**  
-- **Administrative / Mint Authority:** 4D4ZnJ6TZJdmUZQi8WmiKJN57Pxe5pUjFJUSsVJuD5Mr  
-- **Treasury Wallet:** (to be published with public treasury dashboard)  
-- **Team Operations Wallet:** (to be published post-CertiK audit)
-
-These wallets will be made visible to the community for on-chain verification of treasury, liquidity, and operational flows.
+| Category | % | Lock/Vest | Purpose |
+|:--|--:|:--|:--|
+| Founder | 3 | 12 mo cliff → 24 mo linear | Signal integrity |
+| Seed & Private | 12 | 12 mo lock → 10 %/mo | Strategic funding |
+| Public Presale | 10 | 25 % TGE → 6 mo linear | Community |
+| Ecosystem & Partnerships | 20 | ≤ 2.5 %/qtr | Growth grants |
+| Team & Advisors | 15 | 12 mo cliff → 24 mo linear | Retention |
+| Liquidity & Listings | 10 | 40 % TGE + streamed | DEX/CEX depth |
+| Rewards & Staking | 30 | Emission halving | Long-term incentives |
 
 ---
 
-### 3. Allocation Breakdown
+### 4.3 Presale Architecture
 
-| Category | Allocation | Purpose |
-|---|---:|---|
-| Public Circulation | 40% | Exchange liquidity and public trading |
-| Ecosystem & Rewards | 25% | Staking, social-engagement rewards, AI training incentives |
-| Development & Operations | 15% | Infrastructure, research, continuous upgrades |
-| DAO Treasury & Reserve | 10% | Grants, partnerships, liquidity stabilization |
-| Marketing & Community | 7% | Brand awareness, creator onboarding, global growth |
-| Founders & Advisors | 3% | Locked 12 months, vested over 24 months |
-
-This allocation model prioritizes community incentives and ecosystem growth while preserving a modest pool for founders and long-term operators.
+**Phase 1 — Foundation (M1-M2)** → Raise $250–500 K @ $0.01 · 12 mo lock.  
+**Phase 2 — Private (M3-M4)** → Raise $1–1.5 M @ $0.015 · 20 % TGE → 6–9 mo.  
+**Phase 3 — Public (M5)** → Raise $2–3 M @ $0.02 · 25 % TGE → 3–6 mo.  
+**Phase 4 — Listing (M6-M7)** → DEX/CEX launch · 20–25 % APY staking · Target FDV $20–30 M.
 
 ---
 
-### 4. Ecosystem & Rewards Vesting Schedule
+### 4.4 Emission Policy
 
-| Period | Unlock % | Notes |
-|---|---:|---|
-| TGE (Token Generation Event) | 5% | Initial liquidity and staking rewards |
-| Months 1–6 | 5% | Early adoption incentives and bounty programs |
-| Months 7–18 | 10% | Gradual reward emissions to sustain engagement |
-| Months 19–36 | 20% | Ecosystem scaling and DAO-governed releases |
-| Months 37–60 | 60% | Long-term staking, chat mining, reward-halving phase |
-
-This multi-year distribution builds trust and ensures consistent token circulation as adoption grows.
+- Rewards halve annually.  
+- Emission sources: staking, Engage-to-Earn, creator incentives.  
+- Governance may pause emissions to protect runway.
 
 ---
 
-### 5. Emission & Reward Halving Schedule
+## 🧠 V. Ecosystem Utility Highlights
 
-| Year | Annual Emission | Notes |
-|---|---:|---|
-| 2027 | 100,000,000 NNC | Initial emission cycle for staking and social rewards |
-| 2028 | 50,000,000 NNC | First halving — increased scarcity |
-| 2030 | 25,000,000 NNC | Second halving — network maturity |
-| 2032 → | 12,500,000 NNC / year | Steady-state circulation and ecosystem balance |
-
-Emission rates are governed by DAO consensus and can be tuned to community participation metrics.
-
----
-
-## **IV. Core Use Case — The Social-AI Economy**
-
-NeuralNet Coin is designed around the idea that **human interaction itself** can become a valuable on-chain signal when paired with AI. Rather than rewarding only compute or mining, NNC rewards **social, conversational, and creative contributions** that improve AI quality and community health.
-
-The Social-AI Economy is made of four coordinated layers:
-
-### **A. Engage-to-Earn Social Media**
-
-Every interaction — post, comment, rating, curation, or contribution — can carry economic value when it is validated by AI.
-
-- **AI-Verified Quality:** AI models score content for originality, sentiment, relevance, and non-spam behavior.  
-- **On-Chain Reputation:** Addresses accumulate a reputation score based on past high-quality contributions.  
-- **Moderator Bounties:** Human validators can resolve disputes and earn NNC for accurate decisions.  
-- **Sybil Resistance:** Multi-signal analysis (device entropy + behavioral patterns) reduces fake engagement.
-
-**Example**  
-A verified creator posts an educational video. The platform’s AI measures positive engagement and distributes **15 NNC** between the creator and the top commenters based on contribution scores. Low-value comments and bot-like activity are filtered out automatically.
-
-### **B. Conversational AI — NeuralNet Assistant**
-
-NNC powers a **pay-to-chat** and **train-to-earn** ecosystem connecting users, trainers, and AI developers.
-
-- **Users** pay small amounts of NNC for AI chat sessions or higher-quality models.
-- **Trainers / Contributors** improve AI responses, label data, or correct hallucinations and earn NNC in return.
-- **Developers** can host or customize AI personalities and receive revenue shares.
-- **DAO** receives fractional protocol fees (at the app/platform level, not at the token-transfer level).
-
-**Illustrative Micro-Transaction Model:**  
-- Average chat cost: ≈ 0.005 NNC per interaction  
-- 1,000 daily interactions ≈ 5 NNC earned for the creator or host (example only; final pricing set by DAO and market)  
-- All values are **illustrative** and **not financial guarantees**.
-
-### **C. Creator Economy 3.0**
-
-NNC enables creators to:
-- Tokenize AI-assisted music, art, or writing.
-- Publish gated educational or research content.
-- Run supporter-only channels verified by NNC holdings.
-- Receive predictable NNC micro-payments rather than relying on ad revenue.
-
-This allows creators to own their audience and data, while the DAO can subsidize early content with Ecosystem & Rewards emissions.
-
-### **D. AI-Driven Moderation & Governance**
-
-Human-in-the-loop labeling trains AI moderators. Accurate validators/curators earn NNC, enforcing decentralized community standards across Telegram, Discord, and future in-app feeds. Over time, this becomes an AI-assisted governance layer for the whole ecosystem.
+| Feature | Purpose |
+|:--|:--|
+| AI Creator Hub | Launch monetized AI agents |
+| DecentraNet Marketplace | Peer-to-peer digital services |
+| Engage-to-Earn Alpha | Community onboarding mechanism |
+| Open Health Rails | Healthcare transparency infrastructure |
+| Reputation NFTs | Proof of ethical contribution |
+| API Integration Layer | External AI monetization gateway |
 
 ---
 
-## **V. Expanded Industry Case Uses**
+## ⚙️ VI. Protocol Architecture Overview
 
-NeuralNet Coin ($NNC) is not limited to social media. It can act as a neutral economic layer for **data-rich, AI-dependent industries** that need to reward contributors, secure device signals, and keep incentives on-chain. Because NNC has **0% token-level fee** and uses **DeFi-based revenue** (LP fees, staking yield), these industry use cases can be funded without taxing every transfer.
-
-### **1) Agriculture & Crop Farming**
-
-- **What’s contributed:** Satellite imagery, soil readings, weather and irrigation telemetry from farms and sensors.
-- **Mechanism:** Devices and farmers stream data to decentralized prediction models; AI validates signal quality, removes corrupted data, and ranks sources.
-- **Incentives:** High-quality, high-frequency datasets earn NNC from the Ecosystem & Rewards pool; future rewards can be topped up from DeFi yield flowing into the treasury.
-- **Outcome:** Open, farmer-driven agronomic AI that improves sustainability and food security while paying contributors in a transparent, on-chain way.
-
-### **2) Medical & Healthcare**
-
-- **What’s contributed:** Anonymized clinical datasets, imaging (where lawful), validated outcomes, device telemetry, and research annotations.
-- **Mechanism:** Zero-knowledge or pseudonymous workflows protect identity while still allowing model benchmarking and training.
-- **Incentives:** Clinicians/researchers earn NNC for verified data and evaluation tasks; hospitals, labs, or AI companies can license access using NNC. Rewards are not funded by transfer taxes but by treasury income and staking-based emissions.
-- **Outcome:** Ethical medical-AI improvement without compromising patient privacy, aligned with regions that require data minimization.
-
-### **3) Autonomous Driving**
-
-- **What’s contributed:** Dash-cam video, radar/LiDAR traces, and rare-edge-case driving events from fleets and individual drivers.
-- **Mechanism:** Decentralized mapping and navigation AIs aggregate and de-duplicate routes/events; contributors retain ownership over the source data.
-- **Incentives:** NNC payouts for validated segments and rare-event logs used in safety models; payouts can be streamed from DeFi-based treasury yield so the base token stays clean.
-- **Outcome:** Safer road models and transparent, open mapping primitives, especially useful for open-source AV research.
-
-### **4) Industrial Automation**
-
-- **What’s contributed:** Anonymized machine logs, vibration/thermal data, maintenance history, and downtime events from factories or devices.
-- **Mechanism:** Predictive-maintenance AIs infer failure signatures; enterprises stake NNC to access higher tiers of analytics.
-- **Incentives:** Submitters (factories, OEMs, integrators) earn NNC for data that improves model accuracy; consumers spend NNC to access dashboards. Because the token has 0% on-chain fee, industrial partners are not punished for regular treasury or payroll transfers.
-- **Outcome:** Downtime reduction and reliability analytics as an on-chain asset, paid for by real users, not by token taxes.
-
-### **5) IoT & Smart Cities**
-
-- **What’s contributed:** Real-time air-quality, traffic density, noise levels, power grid telemetry, and water monitoring from IoT devices.
-- **Mechanism:** Trust scoring + cross-sensor consensus prevent spoofing; civic dashboards allow planners and researchers to query live data.
-- **Incentives:** Validated device nodes earn NNC via staking pools funded by the DAO and by DeFi yield; cities or DAOs can fund entire sensor networks using the 10% treasury allocation.
-- **Outcome:** Smarter public infrastructure built on auditable, rewarded data — with funding coming from project-level revenue, not user-level transfer taxes.
-
-### **6) Education & Research**
-
-- **What’s contributed:** Open models, training datasets, benchmarking results, peer-review artifacts, course material, and educational content.
-- **Mechanism:** DAO-funded bounties and hackathons reward contributors whose work measurably improves AI performance or community knowledge.
-- **Incentives:** NNC rewards for accepted contributions are paid out from Ecosystem & Rewards and can be supplemented by liquidity-pool income; contributors are encouraged to re-stake NNC to earn compounding yield.
-- **Outcome:** A global, open, AI-aligned research commons that is economically sustainable because the token’s revenue is tied to DeFi, not to an arbitrary transfer tax.
+- Built on Solana Token-2022 metadata extensions.  
+- Treasury multisig → DAO transition 2027+.  
+- Protocol-Owned Liquidity (POL).  
+- Oracle + attester layer for verification.  
+- Identity allowlist with reputation tiers.  
+- Continuous auditing and transparency dashboards.
 
 ---
 
-## **VI. Economic Model**
+## 💰 VII. Economic Model — Revenue Loop
 
-### **A. Deflationary Architecture**
+**Sources of Yield**
+1. POL fees.  
+2. Staking revenue (capped APY 20–25 %).  
+3. Marketplace fees (≤ 2 %).  
+4. Creator Hub usage.  
+5. Enterprise API integrations.  
 
-- **Fixed Supply:** Hard cap of **1,000,000,000 NNC**.  
-- **Emission Control:** Scheduled emissions and halvings (see Section III.5) encourage long-term alignment and reduce sell pressure over time.  
-- **Buyback-and-Burn:** When DAO surplus exceeds pre-set thresholds, the Treasury Council can execute market buybacks and burns per DAO-approved budgets.  
-- **Fee Sinks:** A fraction of future application-level or marketplace fees may be routed to burn or treasury as approved by DAO.
-
-### **B. Engage-to-Earn Mechanism**
-
-- **Proof-of-Contribution:** Rewards are allocated based on AI-scored contribution quality (originality, relevance, trust).  
-- **Anti-Gaming:** Multi-signal detection — device entropy, behavior patterns, cross-account correlation — reduces sybil/spam.  
-- **Transparent Distribution:** Emissions flow to contributor pools (creators, moderators, trainers) with on-chain visibility.
-
-### **C. Staking & Yield**
-
-- **Validator / Liquidity Staking:** Users stake NNC to secure services or provide liquidity; yields vary with protocol volume and emission epoch.  
-- **Reputation Boosts:** Higher on-chain reputation can act as a multiplier within bounds set by DAO to avoid whale capture.  
-- **Slashing / Penalties:** Proven fraud or sybil behavior may forfeit accrued rewards (rules codified in governance).
+**Flow of Funds:**  
+Protocol Revenue → Treasury → Staking + E2E Pools → Buyback/Burn on surplus.  
+Eliminates “tax token” risk while retaining real yield utility.
 
 ---
 
-### **D. DeFi-Based Revenue Model & Fee Structure**
+## 🧱 VIII. Governance — Identity-Aware DAO
 
-NeuralNet Coin replaces the old 2% token-level fee with **DeFi-native, transparent, and auditable revenue streams**. This makes NNC more listing-friendly while still providing operating income for the team and treasury.
+**Phase 1 (2026)** → Multisig oversight + monthly reports.  
+**Phase 2 (2027)** → Reputation DAO launch.  
+**Phase 3 (2028)** → Full on-chain governance.
 
-#### 1. Liquidity-Pool Yield (Primary Passive Income)
-
-The Treasury and Team Operations wallets provide liquidity to an official **NNC/SOL** pool on decentralized exchanges (e.g., Raydium, Moonshot).  
-Every swap on the pool charges a ~0.25–0.30% DEX fee which is distributed to LPs.
-
-**Revenue Split:**
-
-| Recipient | Share | Purpose |
-|---|---|---|
-| DAO Treasury | 70% | Reinvest, deepen liquidity, fund grants |
-| Team Operations | 30% | Infrastructure, audits, development, community ops |
-
-This delivers **continuous, passive yield** without altering the token contract.
-
-#### 2. Treasury Staking & Lending
-
-Idle SOL or USDC in the Treasury is delegated or lent through Solana DeFi (Marinade, Jito, Solend, Marginfi), typically earning **4–7% APY**. Rewards follow the same 70/30 Treasury–Team split. This ensures the project can fund operations even before Social-AI is live.
-
-#### 3. NNC Holder Staking Pools
-
-Public staking pools, funded from the **Ecosystem & Rewards** allocation, reward long-term NNC holders. Team-held NNC can also be staked — giving the core contributors a fair, transparent way to earn ongoing yield.
-
-#### 4. Liquidity Vault Automation (Phase 2)
-
-As trading volume grows, NNC liquidity may be migrated into auto-compounding vaults (Kamino, GooseFX, Marinade Vaults) to automatically harvest and reinvest fees — turning the LP layer into a self-sustaining profit engine.
-
-#### 5. Revenue Distribution Policy
-
-| Source | DAO Treasury | Team Ops | Burn Pool |
-|---|---|---|---|
-| LP Swap Fees | 70% | 30% | — |
-| Treasury Staking Yield | 70% | 30% | — |
-| NNC Staking Rewards | 80% (to stakers) | 20% (team stake) | — |
-| Vault Automation Gains | 60% | 30% | 10% |
-
-All fund flows occur via multi-signature wallets and will be published via quarterly transparency reports.
-
-#### 6. Outcome
-
-This DeFi-driven framework **replaces** the legacy on-chain 2% fee with **on-chain, auditable yield sources**, so the project can stay sustainable, exchanges can list a 0%-tax token, and the community can verify every income source.
+| Rule | Phase 2 | Phase 3 |
+|:--|--:|--:|
+| Quorum | 8 % | 12 % |
+| Approval | 60 % | 66 % |
+| Proposal Threshold | 0.1 %/Rep-3 | 0.25 %/Rep-4 |
+| Emergency Pause | 5/7 signers | DAO super-majority |
 
 ---
 
-## **VII. Governance & DAO Framework**
+## 🛡️ IX. Compliance & Risk Management
 
-NeuralNet Coin uses a **hybrid governance model** to balance decentralization with responsible treasury management.
-
-- **DAO Voting:** Staked NNC holders may propose and vote. A minimum of **5,000 NNC** is required to submit proposals.
-- **Treasury Council (Multi-Sig Sub-DAO):** Community-elected signers execute DAO-approved budgets and initiatives.
-- **Transparency:** All treasury activity is on-chain and summarized quarterly via a public dashboard.
-- **Voting Scope:** Ecosystem growth, grants, partnerships, emissions adjustments, and activation of platform-level (not token-level) protocol fees.
-
-**Treasury Voting Access:**  
-Holders will **not** have full treasury voting rights until the **Social-AI governance and identity/verification framework** is implemented. This protects the treasury from sybil attacks and ensures that only verified, long-term, Social-AI–integrated addresses can make spending decisions.
-
-**Protocol Fees:**  
-Token transfers remain **0%** to ensure exchange compliance. The DAO may later vote to enable small **platform-level** fees (for AI usage, marketplace transactions, or verifications) once the Social-AI utilities launch.
-
-**Anti-Whale Protections:**  
-Weighted voting caps, quorum requirements, and optional delegation will ensure broad representation and prevent governance capture.
+- NNC functions as a **utility token**, not a security.  
+- Yields are variable and activity-based.  
+- Presale rounds comply with KYC/AML where required.  
+- Healthcare data is de-identified only.  
+- Smart-contract audits mandatory before mainnet deployment.  
+- Risk buffers: POL floors, emission pause, multi-sig rotation.
 
 ---
 
-## **VIII. Security, Privacy & Compliance**
+## 🔭 X. Industry Case Uses (Overview)
 
-- **Audit Partner:** CertiK (audit scheduled post-launch as the Social-AI platform reaches stable alpha).  
-- **Smart-Contract Verification:** All major upgrades will be audited prior to deployment.  
-- **Data Privacy:** Zero-knowledge and anonymization patterns will be used for sensitive data flows, especially in healthcare and education use cases.  
-- **Sybil Resistance:** Behavioral AI + cryptographic proofs will be deployed to reduce bot activity and collusion.  
-- **Compliance:** Designed to align with U.S. SEC utility-token guidance, EU MiCA, and international digital-asset frameworks; NNC is positioned as an **access and governance token**, not an equity instrument.  
-- **Verification:** Token-2022 metadata is confirmed and live on IPFS.  
-- **Regulatory Disclaimer:** NeuralNet Coin is a utility token for access, participation, and governance within the NeuralNet ecosystem. It does **not** represent equity, ownership, or a guarantee of financial return. All protocol revenues are reinvested or distributed per DAO-approved budgets.
+NNC applications span any domain where verified human input improves AI outcomes.  
+Detailed cases cover Social & Creator Economy, Education, Healthcare, Agriculture, Industrial Automation, Supply Chain, Smart Cities, and Open Science.  
 
----
+Each follows a shared structure: problem → participants → mechanism → rewards → KPIs → pilot plan.  
 
-## **IX. Roadmap & Timeline**
+## 🏗️ XI. Industry Case Uses — Expanded
 
-| Phase | Timeline | Focus | KPI Target |
-|---|---|---|---|
-| **Phase 1 — Foundation Launch** | Q4 2025 – Q1 2026 | Token-2022 creation, Solscan verification, image/metadata fixes, Social Alpha beta | 10,000 holders; alpha live |
-| **Phase 2 — NeuralNet Assistant Integration** | Q2 – Q3 2026 | Pay-to-chat & train-to-earn AI, open API, staking pools | 1,000 daily Assistant chats |
-| **Phase 3 — Creator & Social Expansion** | Q4 2026 – Q2 2027 | Full Social-AI ecosystem, gated creator tools, engagement mining | 50,000 DAU milestone |
-| **Phase 4 — DAO Governance & Scaling** | Q3 – Q4 2027 | Hybrid Treasury Council, community grants, automation, identity-gated treasury voting | Treasury voting active |
-| **Phase 5 — Multi-Sector Expansion & Sustainability** | 2028 – 2029 | Agriculture / Healthcare / IoT integrations; first buyback-and-burn; multi-chain deployment | Cross-chain presence |
+> NeuralNet Coin (NNC) applies its decentralized reward and verification model to every domain where human input and AI performance intersect.  
+> By removing intermediaries, rewarding transparency, and turning verified data into shared value, NNC creates measurable economic impact across multiple industries.
 
 ---
 
-## **X. Risks**
+### 🏥 Healthcare & Clinical Research — Open Health Rails
 
-- **Market Risk:** $NNC price may be volatile and is subject to overall crypto-market conditions.  
-- **Adoption Risk:** Social-AI engagement models are still early; user growth may be slower than expected.  
-- **Regulatory Risk:** Digital asset regulations may change in certain jurisdictions.  
-- **Technical Risk:** Throughput or latency issues may occur on Solana or on the AI backend; mitigations include scaling infrastructure and L2/sidecar services.  
-- **Ecosystem Risk:** Insufficient liquidity or LP participation may reduce the effectiveness of the DeFi-based revenue model.
+**Problem**
 
-> *Nothing in this document is financial or investment advice. Do your own research (DYOR).*
+Healthcare is bloated with intermediaries — insurers, billing processors, and data brokers — that inflate prices and complicate access.  
+Patients paradoxically pay **more when insured**, facing opaque “network rates,” hidden fees, and complex claims.  
+Meanwhile, hospitals and pharmacies monetize private data that patients never control or benefit from.
 
----
+**NNC Solution**
 
-## **XI. Call to Action & Community**
+NeuralNet Coin introduces **Open Health Rails (OHR)** — a decentralized data economy for transparent medical pricing, care outcomes, and research collaboration.
 
-The NeuralNet Coin ecosystem thrives on transparency, verified data, and collaboration. Join us in building the first Social-AI-powered decentralized network.
+- **Patients** earn NNC for sharing de-identified outcome data they control.  
+- **Providers** post price and performance metrics on-chain, verified by oracles and rewarded for transparency.  
+- **Researchers** pay micro-fees in NNC for access to aggregated datasets, redistributing value directly to participants.
 
-**Official Links**  
-🧠 X (Twitter): https://x.com/neuralnetcoin  
-💬 Telegram:(https://t.me/NeuralNetApp)  
-💻 GitHub: https://github.com/HallbjornDeFi/NeuralNetCoin
+**Impact**
 
-**Next Steps**  
-1. Join our communities for updates and developer discussions.  
-2. Participate in DAO proposals and voting when enabled.  
-3. Track CertiK audit and treasury dashboards.  
-4. Contribute to AI chat creation, moderation, or training to earn $NNC.
+- Reduces administrative overhead by removing insurers as financial intermediaries.  
+- Creates global visibility into care quality and price fairness.  
+- Lets patients and providers monetize trust-based transparency.  
+- Accelerates clinical research through open, ethical data sharing.
+
+NNC rebalances healthcare economics — making outcomes, not billing complexity, the center of value.
 
 ---
 
-## **XII. Future Outlook**
+### 🎨 Social & Creator Economy
 
-NeuralNet Coin defines a new era where every conversation and contribution feeds collective intelligence. By uniting AI, blockchain, and social engagement, NNC lays the groundwork for a fair, privacy-centric, and transparent internet economy.
+**Problem**
 
-Next milestone: **CertiK audit verification** of smart-contract integrity and treasury transparency.
+Social platforms and streaming services capture nearly all advertising revenue while creators — the true source of engagement — receive only fragments.  
+Moderators, editors, and contributors remain invisible, and algorithms prioritize sensationalism over substance.
+
+**NNC Solution**
+
+NNC transforms engagement itself into a **verifiable digital asset**.  
+Every authentic like, comment, post, or moderation action contributes measurable value.
+
+- **Creators** earn NNC directly from verified engagement.  
+- **Communities** gain rewards for maintaining quality discussions.  
+- **Fans** receive micro-rewards for meaningful, authentic participation.  
+
+**Impact**
+
+- Ends platform monopolies by decentralizing content value distribution.  
+- Restores ownership and sustainability to digital creativity.  
+- Builds a foundation for transparent, ethical AI training datasets derived from verified human expression.
+
+---
+
+### 📘 Education & Knowledge Economy
+
+**Problem**
+
+Education remains constrained by outdated credentials, closed review systems, and underpaid knowledge work.  
+Teachers, translators, and reviewers provide immense intellectual value but rarely share in the wealth their content creates.
+
+**NNC Solution**
+
+NNC introduces a decentralized **Proof-of-Skill Economy**, aligning reward with verified knowledge transfer.
+
+- **Educators** earn NNC for measurable student progress and verified content accuracy.  
+- **Learners** receive **Reputation NFTs** for verified skill mastery.  
+- **Translators & Reviewers** are compensated for expanding access and maintaining quality.
+
+**Impact**
+
+- Turns education into an open, auditable network of verified learning.  
+- Creates an economy where knowledge work is transparently rewarded.  
+- Builds global “skill liquidity” — a world where expertise can move freely and be valued fairly.
+
+---
+
+### 🌾 Agriculture & IoT
+
+**Problem**
+
+Farmers face data capture monopolies from agritech corporations that collect sensor data without fair compensation.  
+Producers pay for analytics built on their own information while middlemen profit from insights derived from their labor.
+
+**NNC Solution**
+
+NNC establishes a **decentralized agricultural data market**, giving farmers control and ownership of their environmental data.
+
+- **Farmers** upload verified crop, soil, and weather data for rewards.  
+- **IoT manufacturers** stake NNC to ensure sensor accuracy and lose stake for tampering or drift.  
+- **Researchers & Supply Networks** pay in NNC for verified, real-time agricultural datasets.
+
+**Impact**
+
+- Eliminates corporate data middlemen.  
+- Improves sustainability through transparent incentives.  
+- Enables collective bargaining power for producers through tokenized data value.
+
+---
+
+### ⚙️ Industrial Automation & Predictive Maintenance
+
+**Problem**
+
+Manufacturing efficiency depends on accurate machine data — yet most predictive systems are locked behind vendor paywalls.  
+Downtime remains expensive due to incomplete datasets and closed feedback loops.
+
+**NNC Solution**
+
+NNC decentralizes industrial intelligence by rewarding verified maintenance data and empowering open collaboration.
+
+- **Engineers & Technicians** earn NNC for verified incident reports and operational feedback.  
+- **Manufacturers** gain access to pooled, high-quality data without relying on third-party vendors.  
+- **Auditors & Inspectors** are rewarded for validating data integrity.
+
+**Impact**
+
+- Cuts downtime by improving AI predictive accuracy.  
+- Creates a cross-industry “maintenance intelligence commons.”  
+- Reduces dependency on monopolized software ecosystems.
+
+---
+
+### 🚚 Supply Chain & Logistics
+
+**Problem**
+
+Freight, warehousing, and customs industries rely on brokers and intermediaries that obscure visibility and inflate costs.  
+Data silos prevent real-time tracking, and disputes over shipment status are slow and costly.
+
+**NNC Solution**
+
+NNC creates a **transparent logistics verification layer**, where trust is built on-chain, not through brokers.
+
+- **Carriers** verify pickup and delivery through timestamped events.  
+- **Buyers & Sellers** confirm fulfillment through blockchain proof.  
+- **Auditors** resolve disputes via consensus verification and earn NNC.
+
+**Impact**
+
+- Eliminates middlemen and redundant verification steps.  
+- Increases trust through open, immutable shipment records.  
+- Enables decentralized, instant trade settlements with verifiable proof of delivery.
+
+---
+
+### 🌆 Smart Cities & Energy Optimization
+
+**Problem**
+
+Urban infrastructure often relies on outdated energy grids and private data contractors.  
+Citizens lack visibility into how their energy usage or feedback impacts policy decisions.
+
+**NNC Solution**
+
+NeuralNet Coin enables **citizen-owned energy and data markets** that turn civic participation into tangible economic rewards.
+
+- **Residents** share anonymized power consumption data or report outages for NNC.  
+- **Utilities** reward verified conservation efforts.  
+- **City DAOs** use aggregated insights to fund sustainability initiatives.
+
+**Impact**
+
+- Builds decentralized collaboration between citizens and city systems.  
+- Makes energy conservation financially rewarding.  
+- Creates open-access civic intelligence powered by transparency.
+
+---
+
+### 🔬 Open Science & Research
+
+**Problem**
+
+The global research ecosystem is dominated by paywalled journals and private data silos.  
+Peer reviewers, who uphold scientific quality, are unpaid, while publishers and data brokers monetize their work.
+
+**NNC Solution**
+
+NNC constructs a **DeSci (Decentralized Science)** framework that rewards openness and verifiable contribution.
+
+- **Researchers** earn tokens for peer-reviewed studies or reproducible experiments.  
+- **Institutions** share data transparently and receive compensation based on usage metrics.  
+- **Independent Scientists** access DAO microgrants to pursue open-source investigations.
+
+**Impact**
+
+- Incentivizes replication and integrity.  
+- Removes profit-seeking intermediaries from the knowledge economy.  
+- Makes scientific truth both *economically sustainable* and *publicly accessible*.
+
+---
+
+### 🧩 Summary Table — Cross-Industry Synergy
+
+| Sector | Problem | NNC Role | Key Mechanism | Economic Driver |
+|:--|:--|:--|:--|:--|
+| Healthcare | Price opacity & insurer overhead | Open Health Rails | On-chain price/outcome data | DeFi escrow & rewards |
+| Creator Economy | Platform monopolies | Social Proof Layer | Verifiable engagement | Engage-to-Earn pools |
+| Education | Closed credential systems | Proof-of-Skill NFTs | Reputation validation | Learning rewards |
+| Agriculture | Corporate data capture | Data Sovereignty | IoT staking & verification | Data monetization |
+| Industrial | Vendor lock-in | Predictive Commons | Maintenance validation | Shared intelligence |
+| Supply Chain | Middlemen & delays | Logistics Ledger | Event attestation | Escrow fees |
+| Smart Cities | Data opacity | Civic Intelligence DAO | Citizen sensors | Energy conservation |
+| Research | Paywalls & bias | DeSci Network | Replication rewards | DAO grants |
+
+---
+
+**NeuralNet Coin’s Industry Case Uses** show how one unified principle — **verified human contribution as economic value** — can reshape entire sectors by removing inefficiency, rewarding transparency, and turning collective intelligence into shared prosperity.
+
+---
+
+## 🚀 XII. Roadmap 2026 → 2029
+
+| Year | Focus | Key Milestones | Targets |
+|:--|:--|:--|:--|
+| 2026 | Foundation & Alpha | Engage-to-Earn launch, Marketplace Beta | 10 k holders · 5 k AI agents |
+| 2027 | Creator Economy | AI Hub v1, Staking v1, DAO Phase 2 | 50 k DAU · >$5 M volume |
+| 2028 | Enterprise Integration | Healthcare & Research pilots | $1 B cap trajectory |
+| 2029 | Cross-Chain & Sustainability | Interoperability, buyback program | Top-20 ranking |
+
+---
+
+## 💼 XIII. Market Integrity & Listing Readiness
+
+- Mint and freeze authorities permanently disabled post-audit.  
+- Presale whitelisting to ensure fair distribution.  
+- POL treasury verified monthly.  
+- DEX/CEX liquidity deployed progressively to avoid MEV front-running.  
+
+---
+
+## 🧱 XIV. Treasury & POL Policy v1.0
+
+**Objectives**: Maintain ≥ 24-month runway and stable liquidity.  
+**Targets**: NNC/SOL ≈ $150 K · NNC/USDC ≈ $150 K · rebalanced weekly.  
+**Use of Funds**: audits, infrastructure, DAO grants, and buybacks when surplus > 10 % of runway.
+
+---
+
+## 🧩 XV. Integrity & Anti-Sybil Framework
+
+- Identity verification and device binding.  
+- Engage-to-Earn caps (1 k/day, 5 k/week).  
+- Anomaly detection for multi-accounting.  
+- Violations → slashing and temporary wallet freeze.  
+
+---
+
+## 🔒 XVI. Threat Model & Bug Bounty
+
+Scope covers contracts, staking, treasury, and governance modules.  
+Rewards: Critical ≥ $10 k eq. · High $2 k–$10 k · Medium $500–$2 k · Low Recognition NFT.
+
+---
+
+## 📈 XVII. Economic Stress Testing
+
+Stress simulations test volume ± 50 %, user churn 20 %, and fee variance ± 0.5 %.  
+Outputs show runway, APY range, and emission coverage.  
+Safeguards include emission pause and POL floors.
+
+---
+
+## 🧪 XVIII. Pilot Program Template
+
+1️⃣ Define baseline KPIs.  
+2️⃣ Assign roles and attesters.  
+3️⃣ Apply privacy rules (de-ID, consent).  
+4️⃣ Run pilot 3–6 months.  
+5️⃣ Publish results on-chain for audit and fund next phase.
+
+---
+
+## 🌐 XIX. Community & Brand Ethos
+
+- Tone: transparent, ethical, visionary.  
+- Tagline: “Social interaction becomes intelligence → intelligence becomes value.”  
+- Core channels: X (Twitter), Substack, Telegram, Discord.  
+- Design: silver-blue neural aesthetic representing clarity and connection.  
+
+---
+
+## 🔮 XX. Future Outlook
+
+NNC is building a transparent, AI-driven social economy where human creativity and data integrity form the backbone of intelligence.  
+
+**Next Milestones**  
+1. Finalize presale with auditable allocations.  
+2. Launch E2E alpha and public dashboard.  
+3. Deploy DAO Governance Phase 1 contracts.  
 
 > **NeuralNet Coin — Where Social Interaction Becomes Intelligence, and Intelligence Becomes Value.**
 
 ---
 
-© 2025 NeuralNet Coin (NNC) — All Rights Reserved.
+## 📚 XXI. Appendices
+
+### Appendix A — Presale Terms (Indicative)
+
+| Round | Price | Vesting | Purpose |
+|:--|:--|:--|:--|
+| Seed | $0.01 | 12 mo lock → 10 %/mo | Strategic partners |
+| Private | $0.015 | 20 % TGE → 6–9 mo | Ecosystem partners |
+| Public | $0.02 | 25 % TGE → 3–6 mo | Community distribution |
+| Listing | ≈ $0.035 | — | DEX/CEX launch |
+
+KYC/AML applied where necessary; unsold tokens burned for scarcity.
+
+---
+
+### Appendix B — Key Definitions
+
+- **POL:** Protocol-Owned Liquidity.  
+- **E2E:** Engage-to-Earn reward framework.  
+- **Reputation NFT:** Non-transferable credential verifying ethical contribution.  
+- **DAO:** Decentralized Autonomous Organization.  
+- **Attester:** Verified oracle that validates human activity.  
+
+---
+
+### Appendix C — Legal & Forward-Looking Statements
+
+This whitepaper is for informational purposes only. NeuralNet Coin (NNC) is a utility token intended for network access, AI payments, and reward mechanisms. It does not represent ownership, equity, or a guarantee of profit. All statements about future plans are forward-looking and subject to change based on market, technical, and regulatory factors. Participants assume the risks of market volatility and technological evolution. Compliance with local laws remains the responsibility of each participant.  
+
+© 2026 NeuralNet Coin DAO · All Rights Reserved
+
