@@ -29,6 +29,10 @@ Early supporters can participate at the link here.
 
 >📊 **All presale transactions and burns will be verifiable on Solana Explorer.**
 
+> 📌 **Note:** This limited presale is part of the early Community Phase outlined in the 2026 Whitepaper.  
+> Purchases are manually processed with defined minimum and maximum limits per participant.  
+> This is **not a public token launch** or open exchange offering.
+
 ---
 
 ## 🔍 Mission  
