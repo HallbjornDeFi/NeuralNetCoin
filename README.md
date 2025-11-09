@@ -12,6 +12,9 @@ It bridges human creativity and machine intelligence through a transparent rewar
 Deployed via a **verified Token-2022 mint**, NeuralNet Coin is fully auditable on-chain.  
 All parameters, metadata, and governance structures are publicly visible on **[Solana Explorer](https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF)**, ensuring long-term transparency and community trust.  
 
+[🚀 Pre-Sale Live→](https://hallbjorndefi.github.io/)
+Please note that transactions are manual as there currently is no backend setup for the first phase. Phantom Wallet is required!
+
 ---
 
 ## 🔍 Mission  
