@@ -67,7 +67,7 @@ NeuralNet Coin defines a **Social-AI Economy** that transforms verified human co
 **Phase 5 (2028 – 2029):** Industry Integration — Healthcare (Open Health Rails), Education (Proof-of-Skill), Agriculture (IoT Staking), Industrial Automation, Supply Chain pilots.  
 **Phase 6 (Post-2029):** Cross-Chain Expansion & Global Adoption — EVM bridges, regional DAO councils, AI oracle integration.  
 
-[📄 Read Full Roadmap →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_ROADMAP_2026_2029.md)
+[📄 Read Full Roadmap →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_ROADMAP_2026.md)
 
 ---
 
