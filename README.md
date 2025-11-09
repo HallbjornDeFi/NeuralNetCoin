@@ -14,9 +14,20 @@ All parameters, metadata, and governance structures are publicly visible on **[S
 
 [🚀 Pre-Sale Phase 1 Now Live→](https://hallbjorndefi.github.io/)
 Early supporters can participate at the link here.
+
 > ⚙️ **Note:** The presale backend is still under active development.  
+
 > All NNC transactions are currently processed **manually** to ensure accuracy and security during the beta phase.  
+
 > 💼 **Phantom Wallet is required** to participate and receive NNC tokens.
+
+> 💰 **Pre-Sale Pool:** 15,000,000 NNC (Phase 1)
+
+> ⏳ **Open Window:** 3 days from launch
+
+> 🔥 **All unsold NNC from this phase will be permanently burned** to protect supply integrity.
+
+>📊 **All presale transactions and burns will be verifiable on Solana Explorer.**
 
 ---
 
