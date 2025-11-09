@@ -81,7 +81,7 @@ NeuralNet Coin operates under the **Solana Token-2022** framework with **0 % on-
 - Identity-aware proposal system (≥ 5 000 NNC stake).  
 - Continuous Skynet risk monitoring and transparency dashboard.  
 
-[📄 Read Full CertiK Prep →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/CERTIK_PREP_REV4.md)
+[📄 Read Full CertiK Prep →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/CERTIK_AUDIT_PREP_2026.md)
 
 ---
 
