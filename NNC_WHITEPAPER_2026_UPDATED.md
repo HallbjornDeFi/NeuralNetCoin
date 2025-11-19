@@ -180,7 +180,7 @@ All final NNC transactions remain on-chain and auditable.
 **Sources of Yield**
 1. POL fees.  
 2. Staking revenue (capped APY 20–25 %).  
-3. Marketplace fees (≤ 2 %).  
+3. Marketplace fees (≤ 3 %).  
 4. Creator Hub usage.  
 5. Enterprise API integrations.  
 
