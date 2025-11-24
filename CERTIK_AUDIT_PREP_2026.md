@@ -1,169 +1,257 @@
-# NeuralNet Coin (NNC) — CertiK Audit Preparation Summary
+# NeuralNet Coin (NNC) — Security Audit Preparation Summary  
+*(Prepared for CertiK or an equivalent independent auditor)*
 
-## Overview
-NeuralNet Coin ($NNC) is a decentralized, AI-integrated cryptocurrency built on the **Solana Token-2022** standard.
+## 1. Overview
 
-The 2026 Edition of the whitepaper (**“Social AI First” — Rev 4**) defines NNC as the economic layer of a **Social-AI Economy** — where verified human contribution, AI collaboration, and industry data sharing are rewarded through a controlled, transparent token system.
+NeuralNet Coin (NNC) is a decentralized, Social-AI-driven token built on the **Solana Token-2022** standard.
 
-This document updates the audit scope to match:
+The current canonical references are:
 
-- **Whitepaper 2026 — Rev 4**
-- **Roadmap 2026–2029 (Social-AI → DAO → Industry Pilots)**
-- the new **off-chain Engagement Credits → on-chain NNC redemption** model
-- the **DeFi-based revenue loop** (POL, staking, marketplace fees)
-- and the **identity-aware governance** rollout.
+- **NeuralNet Coin (NNC) Whitepaper — 2026 Edition (“Social AI First”, Rev 4)**  
+- **NeuralNet Coin (NNC) Roadmap — 2026–2029+**  
+- **NeuralNet Coin Mint Transparency Report (Token-2022, 9 decimals, immutable)**  
+
+The 2026 whitepaper and roadmap define a phased build:
+
+1. **Phase 1 — Foundations (Years 1–2)**  
+   - Token-2022 NNC mint (1,000,000,000 supply, 9 decimals, immutable).  
+   - **Social-AI Trust Engine (alpha → beta)** for bot / scam / fake-engagement detection.  
+   - **DecentraNet Marketplace (digital-only beta)** with NNC payments and optional escrow.  
+   - **NNC Fee Router** — a 3% capped (max 25 NNC/tx) ecosystem fee on **defined flows** only.  
+   - **Engage-to-Earn v0** — off-chain Engagement Credits → on-chain NNC redemptions.
+
+2. **Phase 2 — Hardening & Phygital Seed (Years 2–3)**  
+   - Trust Engine beta; vendor verification and reputation for DecentraNet.  
+   - Selective phygital commerce pilots with NFT receipts.  
+   - Engage-to-Earn v1 with stricter anti-Sybil controls.  
+   - Governance v1 (Reputation DAO) for non-critical decisions.
+
+3. **Phase 3–4 — Industry Pilots & zk-Privacy Research / Expansion (Years 3–5+)**  
+   - Limited, sector-specific pilots (creator economy, DeSci, etc.).  
+   - **NNC Privacy Router** + shielded pool (zk-privacy layer) on testnet → possible mainnet.  
+   - Multi-industry expansion if earlier phases are stable and adopted.
+
+This audit prep document aligns the **security scope and priorities** with that phased plan.
+
+The immediate goal is to prepare for **Phase-appropriate audits**, not to over-specify future modules that do not exist yet.
 
 ---
 
-## 1. Audit Scope
+## 2. Audit Goals
 
-### 1.1 Primary Mint (Token-2022)
-- **Token Name:** NeuralNet Coin  
-- **Symbol:** NNC  
-- **Network:** **Solana — Token-2022 Standard**  
+### 2.1 Primary Goals (Near-Term / Phase 1–2)
+
+1. **Correctness & Safety of Core On-Chain Contracts**
+   - Token-2022 mint configuration (immutability, authorities revoked).  
+   - NNC Fee Router (3% capped fee on specific flows).  
+   - DecentraNet marketplace contracts (escrow / order lifecycle).  
+   - Engage-to-Earn redemption contract (off-chain credits → on-chain NNC).  
+
+2. **Robust Access Control & Upgrade Safety**
+   - Clear separation of authorities (treasury, router admin, DAO execution, etc.).  
+   - Well-defined upgrade paths (or immutability) for each program.  
+   - Emergency pause mechanisms for critical contracts where appropriate.
+
+3. **Economic Integrity**
+   - No hidden or unbounded minting paths.  
+   - No unintended transfer fees beyond the defined 3% router behavior.  
+   - Enforcement of redemption caps and budget limits as described in the whitepaper.
+
+4. **Alignment with the Published Threat Model**
+   - Protection against common Solana-specific issues (CPI abuse, PDA collisions, address spoofing, account re-initialization, replay, etc.).  
+   - Validation that assumptions in the whitepaper/roadmap match how the contracts actually behave.
+
+### 2.2 Secondary Goals (Later Phases)
+
+- Formal verification or extended review of:  
+  - NNC Privacy Router + shielded pool (zk-privacy layer).  
+  - Advanced DAO / governance execution modules.  
+  - Complex treasury automation and any future staking or yield-bearing features (if implemented).
+
+---
+
+## 3. In-Scope Components (Phase 1–2)
+
+### 3.1 On-Chain Programs
+
+**A. NNC Token-2022 Mint (Mainnet)**
+
 - **Mint Address:** `BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF`  
-- **Decimals:** **9**  
-- **Total Supply:** **1,000,000,000 NNC** (fixed, per Rev 4)  
-- **Transfer / Creator Fee:** **0%** (exchange-friendly; value capture moved off token)  
-- **Launch:** Token-2022 mint verified on Solana explorers  
-- **Explorer:** (https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF)
+- **Config (per Transparency Report):**
+  - Total Supply: `1,000,000,000` NNC (fixed).  
+  - Decimals: `9`.  
+  - Mint Authority: **Revoked**.  
+  - Freeze Authority: **Revoked**.  
+  - Metadata Update Authority: **Disabled** (immutable metadata).  
+- **Audit tasks:**
+  - Confirm the on-chain config matches the transparency report and whitepaper.  
+  - Verify metadata URI and hash are consistent with public GitHub/IPFS sources.  
+  - Confirm there is no remaining authority that can alter supply or core token behavior.
 
-**Notes to CertiK:**
-- Token-2022 extensions in use: **metadata** (and standard Solana extensions as needed), **not** transfer-fee extension.  
-- Mint/Freeze/Update authorities initially held by the project’s administrative wallet, then delegated to DAO-controlled multisig per 2027 governance phase.  
-- Token-level fees are intentionally disabled — **all economic activity happens at the protocol/app/DeFi layer**.
+**B. NNC Fee Router**
 
----
+- Solana program (Anchor) that applies a **3% fee capped at 25 NNC per tx** on specific ecosystem flows:  
+  - DecentraNet marketplace NNC payments (buyer → seller).  
+  - Escrow releases.  
+  - Engage-to-Earn redemptions.  
+  - B2B subscription flows that choose to route through it.
+- **Audit tasks:**
+  - Verify fee calculation logic (3% with 25 NNC cap) for all paths.  
+  - Verify only intended flows are routed through this program; there is **no global transfer tax**.  
+  - Check for rounding issues, double-charging risk, or bypass paths.  
+  - Review how router fees are distributed (treasury, burn, operations) and confirm no privileged drains.
 
-## 2. Audit Objectives
+**C. DecentraNet Marketplace (Digital-Only)**
 
-### 2.1 Smart Contract / Program-Level Integrity
-- Verify Token-2022 configuration matches **Whitepaper 2026 Rev 4** (supply, decimals, 0% transfer fee).
-- Confirm that on-chain metadata URI and asset hash match the public GitHub source.
-- Review auxiliary on-chain programs used in the Roadmap:
-  - **Staking Pools v1** (funded from Rewards & Staking allocation)
-  - **Treasury distribution program** (for epoch-based budget releases)
-  - **Liquidity/POL management accounts**
-- Confirm **authority separation**: mint authority, freeze authority, treasury authority, and DAO execution authority are not co-located.
+- Programs for listing, buying, and finalizing digital service orders with optional escrow.  
+- **Audit tasks:**
+  - Validate order lifecycle: create → fund → fulfil → release/cancel.  
+  - Ensure escrowed NNC cannot be stolen or locked permanently under normal usage.  
+  - Check seller/buyer authorization checks, PDA derivations, and access control.  
+  - Confirm compatibility with the NNC Fee Router (no double-spend / race conditions).
 
-### 2.2 Off-Chain → On-Chain Reward Path (New in Rev 4)
-Because the new whitepaper introduces an **Engage-to-Earn 2.0** model using off-chain **Engagement Credits**:
+**D. Engage-to-Earn Redemption Contract**
 
-- CertiK should review the **redemption contract / program** that converts approved off-chain credit balances into on-chain NNC during “redemption epochs.”
-- Confirm that **only whitelisted/verifier-approved accounts** can trigger redemption.
-- Confirm that **epoch-level caps** exist (as stated in the whitepaper) so total redemptions can’t exceed the DAO’s reward budget.
-- Confirm that suspicious / flagged accounts can be **temporarily blocked** from redemption without freezing the entire token.
+- Converts off-chain **Engagement Credits** into on-chain NNC during **redemption epochs**.  
+- **Audit tasks:**
+  - Verify that only authorized “redemption operators / oracles” can initiate redemptions.  
+  - Confirm that **epoch-level caps** exist and enforce the budget limits defined by governance/treasury.  
+  - Ensure that credits cannot be redeemed twice (anti-replay / nullifier design if applicable).  
+  - Validate that router fees are properly applied to redemption payouts.
 
-This ensures the real-token economy is insulated from spam, bot farming, and social-engineering exploits.
+**E. Governance / Treasury Multisig**
 
-### 2.3 Security & Compliance
-- Assess Solana-specific risks (unrevoked authorities, upgradable programs, signer misuse).
-- Ensure the project adopts **multisig** (min. 3-of-5, growing to 5-of-7) on:
-  - Treasury wallet
-  - Liquidity/POL wallet
-  - DAO execution wallet
-- Verify the token is positioned as a **utility token**:
-  - no guaranteed yields
-  - activity-based rewards only
-  - DAO-controlled emissions
-  - revenue described as ecosystem participation, not returns
-- Document how DeFi income (LP fees, staking yield, marketplace fees) flows back to the treasury without enabling a token tax.
+- Programs / accounts for:  
+  - Treasury control (NNC + SOL/stables).  
+  - Upgrade authority for router, marketplace, and redemption contracts.  
+- **Audit tasks:**
+  - Confirm multisig thresholds and signer sets match documentation.  
+  - Verify there are no single-signer “back doors” or escape hatches.  
+  - Review any DAO execution bridges (if present) for re-entrancy and abuse risk.
 
-### 2.4 DAO Governance (Phased)
-- Review the **Hybrid DAO** model described in the 2026–2029 roadmap:
-  - 2026: multisig + public reporting
-  - 2027: token + reputation-weighted voting
-  - 2028: identity-aware DAO with 5,000 NNC proposal threshold
-- Confirm the **proposal threshold of 5,000 NNC** is hard-coded or enforced via the governance UI/contract.
-- Check anti-sybil measures: governance actions are gated until the Social-AI identity layer is active.
-- Verify broad participation controls (quorum 8–12 %, 60–66 % approval) to reduce governance capture.
+### 3.2 Out-of-Scope for Initial Audits (Documented Only)
 
-### 2.5 Ecosystem / Industry Modules
-Since Rev 4 adds real verticals (Healthcare / Open Health Rails, Education, Industrial, Supply Chain), CertiK should:
+The following are **design-level only** in the current roadmap and should be treated as informational, not yet audited code:
 
-- Verify that **no PHI / personal medical data** is stored on-chain; only de-identified or aggregated references.
-- Review any **escrow / marketplace** programs used in pilot industries for safe payment and dispute resolution.
-- Confirm that any enterprise-style integrations (API keys, oracle signers) are rotated and auditable.
+- NNC Privacy Router + shielded pool (zk-privacy layer).  
+- Advanced DAO execution modules (on-chain proposal execution beyond spending / parameter updates).  
+- Any future staking / yield products that are not yet specified or deployed.  
+- Game / metaverse integrations (NeuralNet Universe / City).
 
 ---
 
-## 3. DeFi-Based Revenue (Updated for Rev 4)
+## 4. Off-Chain Components (Context Only)
 
-Because token-level taxes are disabled, the auditor should focus on these revenue sources:
+The following systems are **not** smart contracts but are security-critical:
 
-1. **Protocol-Owned Liquidity (POL)**  
-   - NNC/SOL and NNC/USDC pools owned by the treasury.  
-   - Pool fees accrue to the treasury; target rebalance weekly.  
-   - Auditor should confirm the POL wallets are published and multi-sig controlled.
+1. **Social-AI Trust Engine**  
+   - Off-chain pipeline that scores accounts/content for bots, scams, fake engagement.  
+   - Feeds into Engage-to-Earn and marketplace trust decisions.  
 
-2. **Treasury Staking / Yield Strategies**  
-   - Idle SOL/USDC staked/delegated on reputable Solana platforms.  
-   - Yield reports published in the treasury dashboard per epoch.  
-   - Auditor confirms yield is not promised to token holders as “returns”; instead, it is **recycled** into E2E pools and grants.
+2. **Engagement Credits Service**  
+   - Stores per-user off-chain credits before redemption.  
+   - Applies rate limits, anomaly detection, and manual review flags.  
 
-3. **Marketplace / AI Hub Fees**  
-   - ≤ 2 % fee on DecentraNet Marketplace transactions.  
-   - Usage fees on AI Creator Hub.  
-   - These incomes are routed to the DAO treasury and can fund future reward epochs.
+3. **Back-Office Tools / Admin Panels**  
+   - UIs for treasury management, redemption ops, vendor review, etc.  
 
-**Important for CertiK:**  
-All value capture is happening **above** the token, so auditors should focus on **program correctness** and **treasury transparency**, not tokenomics taxes.
+For a full security picture, we will provide:
 
----
-
-## 4. Alignment With 2026–2029 Roadmap
-
-- **Phase 1 (2026):** audit Token-2022 mint, treasury multisig, and initial reward contracts.  
-- **Phase 2 (late 2026):** audit E2E credit→NNC redemption path, staking v1, and SDK/API security.  
-- **Phase 3 (2027):** audit Social-AI features (Reputation NFTs, creator payouts) and DAO-controlled epoch budgets.  
-- **Phase 4 (2028):** audit identity-aware DAO, proposal thresholds, and community grants.  
-- **Phase 5 (2028–2029):** audit vertical pilots (healthcare, education, agriculture) for correct use of escrow, data de-ID, and treasury funding.
-
-This staged audit plan matches the staged product launches in the new roadmap.
+- Architecture diagrams (data flows, admin access, logging).  
+- Role / permission matrix for admins, operators, and oracles.  
+- Incident response procedures and audit-log retention policy.
 
 ---
 
-## 5. Supporting Documentation
+## 5. Threat Model Summary
 
-**Updated Materials (Rev 4):**
-- **Whitepaper (2026 — “Social AI First”, Rev 4):** `NNC_WHITEPAPER_2026_REV4.md`  
-- **Roadmap (2026–2029):** `NNC_ROADMAP_2026_2029.md`  
-- **CertiK Audit Prep (this doc):** `CERTIK_PREP_REV4.md`  
-- **Project README:** `README.md`
+Key risks we expect an auditor to consider:
 
-**Repository root:** (GitHub)  
-- https://github.com/HallbjornDeFi/NeuralNetCoin
+1. **On-Chain Financial Risk**
+   - Unauthorized minting or draining of NNC.  
+   - Escrow funds being stuck or stolen.  
+   - Router mis-configuration leading to over- or under-charging fees.  
 
-**Official Channels:**  
-- X (Twitter): https://x.com/neuralnetcoin  
-- Telegram: https://t.me/NeuralNetApp  
-- Substack: https://substack.com/@neuralnetcoin  
-- Discord: enabled after wallet-based role verification is tested
+2. **Access Control & Governance Risk**
+   - Single point of failure in multisig or upgrade authorities.  
+   - Malicious or compromised admin keys.  
+   - Unsafe DAO execution paths.
+
+3. **Redemption & Reward Abuse**
+   - Bypassing Engage-to-Earn caps and budgets.  
+   - Double redemption of off-chain credits.  
+   - Manipulation of oracle / operator roles.
+
+4. **Integration Risk**
+   - Incorrect use of PDAs or CPIs in router / marketplace / redemption flows.  
+   - Re-entrancy or race conditions when multiple programs interact.
+
+5. **Future zk-Privacy Risk (Design-Level)**
+   - Double-spend in shielded pool.  
+   - Leaking privacy through metadata or usage patterns.  
+   - Compliance conflicts if privacy is deployed without proper controls.
 
 ---
 
-## 6. CertiK Readiness Summary
+## 6. Documentation & Artifacts to Provide to Auditor
 
-- **On-chain transparency:** Token-2022 mint, authorities, and metadata live on Solscan.  
-- **Fee policy:** 0 % token transfer fee; value capture at DeFi layer — consistent with Rev 4.  
-- **Governance clarity:** 5,000 NNC proposal threshold; hybrid DAO; identity-aware voting in 2028.  
-- **Reward model:** off-chain Engagement Credits → on-chain NNC redemptions with epoch caps.  
-- **Treasury security:** multi-sig, POL disclosure, epoch-based budget releases.  
-- **Monitoring:** Skynet (or equivalent) to be enabled after initial audit to track treasury, DAO votes, LP pools, and redemption contracts.
+Before formal engagement, we will assemble:
+
+1. **Canonical Documents**
+   - NNC Whitepaper — 2026 Edition (“Social AI First”, Rev 4).  
+   - NNC Roadmap 2026–2029+.  
+   - Mint Transparency Report with addresses and config.
+
+2. **Technical Specs**
+   - Program-by-program specs for:  
+     - NNC Fee Router.  
+     - DecentraNet Marketplace.  
+     - Engage-to-Earn Redemption Contract.  
+     - Governance / multisig layout.  
+   - Interface definitions and invariants for each program.
+
+3. **Codebase**
+   - Repos for on-chain programs (Anchor).  
+   - Repos for off-chain services (for context).  
+   - Deployment scripts and configuration files.
+
+4. **Address & Role Map**
+   - All relevant program IDs and accounts on devnet/mainnet.  
+   - List of signer keys (multisig, DAO, ops) with their responsibilities.  
+   - Network configuration (devnet / mainnet, clusters used, etc.).
+
+5. **Test Suites & Scenarios**
+   - Unit and integration tests for each program.  
+   - Edge-case tests covering fee caps, cancellations, disputes, and redemption caps.
 
 ---
 
-## 7. Next Steps (for Auditor Intake)
+## 7. Phased Audit Plan (Aligned with Roadmap)
 
-1. **Publish final wallet + program ID list** (Admin, Treasury, POL, Redemption Program, Staking v1).  
-2. **Submit** Token-2022 config, Whitepaper 2026 Rev 4, and Roadmap 2026–2029 to CertiK.  
-3. **Schedule phased audits** to match roadmap phases (foundation → E2E → DAO → industry pilots).  
-4. **Enable Skynet** post-audit for continuous monitoring and public transparency.  
-5. **Announce verification** across GitHub Releases, X, Telegram, and Substack.
+**Phase 1 Audit (Foundations)**  
+Scope: Token-2022 mint, NNC Fee Router, DecentraNet digital marketplace (core flows), Engage-to-Earn redemption contract, governance / multisig.  
+
+**Phase 2 Audit (Hardening & Phygital Seed)**  
+Scope: Expanded marketplace features (disputes, reputation-linked features), updated router parameters if any, upgraded redemption logic, and integration glue between programs.  
+
+**Phase 3 Audit (zk-Privacy & Advanced DAO, When Ready)**  
+Scope: NNC Privacy Router + shielded pool, advanced DAO execution paths, and any new treasury automation or staking logic.
+
+Vendor choice (CertiK or equivalent) and exact timelines will be made once each phase’s code reaches a stable pre-audit state.
+
+---
+
+## 8. Next Steps
+
+1. Finalize and tag the code versions intended for **Phase 1** audit.  
+2. Produce minimal but precise specs for each in-scope contract.  
+3. Compile the address / role map and update it alongside the Mint Transparency Report.  
+4. Share this document, the whitepaper, the roadmap, and repos with the chosen auditor.  
+5. Iterate on findings and update documentation to keep it aligned with deployed code.
 
 ---
 
 **Prepared by:**  
-**Hallbjorn (The Architect)**  
+**Hallbjorn (“The Architect”)**  
 Founder & Developer — NeuralNet Coin (NNC)  
 📧 neuralnetcoin@gmail.com
