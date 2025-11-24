@@ -1,110 +1,266 @@
+We’ll keep the audit plan but make it explicitly vendor-neutral and non-committal. Here’s the updated README with CertiK references removed from headings and language (still compatible with your current file name if you don’t rename it):
+
 # **NeuralNet Coin (NNC)**  
-### “Social-AI First — Building a Transparent, Ethical Future for Artificial Intelligence”  
+### “Social-AI First — Building a Transparent, Ethical Future for Artificial Intelligence”
 
 ---
 
-## 🧠 Overview  
-NeuralNet Coin ($NNC) is a decentralized, AI-integrated cryptocurrency built on the **Solana Token-2022** standard.  
-It bridges human creativity and machine intelligence through a transparent reward-based economy — where verified engagement, contribution, and collaboration generate measurable value.
+## 🧠 Overview
 
-[📄 Read Full Whitepaper →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_WHITEPAPER_2026_UPDATED.md)
+NeuralNet Coin ($NNC) is a decentralized, **Social-AI economy token** built on the **Solana Token-2022** standard.
 
-Deployed via a **verified Token-2022 mint**, NeuralNet Coin is fully auditable on-chain.  
-All parameters, metadata, and governance structures are publicly visible on **[Solana Explorer](https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF)**, ensuring long-term transparency and community trust.  
+NNC focuses on:
 
----
+- A **Social-AI Trust Engine** for detecting bots, scams, and fake engagement.  
+- **DecentraNet**, a digital-first marketplace where services (and later goods) are paid in NNC.  
+- An **Engage-to-Earn** model using off-chain engagement credits that redeem into NNC under strict caps.  
+- A **3% capped NNC Fee Router (max 25 NNC/tx)** applied only to defined ecosystem flows (not a global transfer tax).  
 
-## 🔍 Mission  
-To create a **decentralized Social-AI economy** where humans and AIs cooperate through fair, transparent value exchange.  
-Every authentic social or creative interaction earns verifiable rewards, fueling a self-sustaining ecosystem that merges decentralized intelligence with ethical AI development.  
-
-> “Social interaction becomes intelligence — and intelligence becomes value.”  
+The project’s 2026 Whitepaper (Rev 4) and Roadmap (2026–2029+) are explicitly scoped around **Phase 1–2 delivery** first, with industry pilots and zk-privacy features treated as **later-phase horizon work**.
 
 ---
 
-## 📘 Documentation  
-- **Whitepaper (2026 Edition — Rev 4 ‘Social AI First’):** Defines the Engage-to-Earn 2.0 credit-to-NNC system, DeFi-based treasury model, governance phases, and industry integrations.  
-- **Roadmap (2026 – 2029):** DAO-aligned growth plan including the off-chain → on-chain reward path, staking epochs, and cross-industry pilot programs.  
-- **CertiK Audit Preparation (Rev 4):** Full technical, governance, and compliance summary for Token-2022 audit and Skynet monitoring.  
-- **Manifesto (Substack):** Declaration of transparency, ethics, and decentralized integrity guiding NeuralNet Coin.  
+## 🔍 Mission
 
-**GitHub Repository:** [https://github.com/HallbjornDeFi/NeuralNetCoin](https://github.com/HallbjornDeFi/NeuralNetCoin)  
+NeuralNet Coin exists to:
 
----
+- Turn **verified human participation** (moderation, fraud reporting, high-signal engagement) into a shared economic asset.  
+- Provide a **trust and reward layer** for the internet — starting with social platforms and commerce.  
+- Build a transparent, auditable alternative to engagement-farming and opaque AI data pipelines.  
 
-## 💠 Token Information  
-| Parameter | Detail |
-|------------|--------|
-| **Token Name:** | NeuralNet Coin |
-| **Symbol:** | NNC |
-| **Network:** | Solana — Token-2022 Standard |
-| **Mint Address:** | `BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF` |
-| **Transfer / Creator Fee:** | 0 % (on-chain); revenue via DeFi yield model |
-| **Decimals:** | 9 |
-| **Total Supply:** | 1 000 000 000 NNC |
-| **Launch Date:** | November 2025 (Verified Mint) |
+Core principles:
 
-> ✅ This is the **official and only verified mint** of NeuralNet Coin ($NNC) on Solana.  
-> Metadata is live on IPFS, and all authorities are held by the administrative wallet:  
-> `4D4ZnJ6TZJdmUZQi8WmiKJN57Pxe5pUjFJUSsVJuD5Mr`.
+- **Integrity over hype** — no promised APYs, no stealth taxes, no bait-and-switch tokenomics.  
+- **Utility over speculation** — real services (trust engine + marketplace) before aggressive listings or marketing.  
+- **Clear limits over vague promises** — near-term features are detailed; future sectors are presented as long-term possibilities, not imminent launches.
 
 ---
 
-## 🧩 Core Vision  
-NeuralNet Coin defines a **Social-AI Economy** that transforms verified human contribution into digital value while maintaining ethical standards and decentralization.  
+## 📘 Documentation
 
-**Core Principles:**  
-- **Transparency →** Every transaction, epoch, and DAO vote is on-chain.  
-- **Security →** Multi-sig treasury & independent audits (CertiK).  
-- **Ethical AI →** Rewards favor authentic human input and verified contributions.  
-- **Governance →** Hybrid DAO model with ≥ 5 000 NNC stake threshold for proposal submission.  
+This repository is the canonical source for NeuralNet Coin documentation:
 
----
+- **Whitepaper (2026 Edition — “Social AI First”, Rev 4)**  
+  `NNC_WHITEPAPER_2026_UPDATED.md`  
+  - Full tokenomics (1B supply, 9 decimals, 2.5% founder allocation).  
+  - Social-AI Trust Engine & DecentraNet design.  
+  - Engage-to-Earn credit-to-NNC model.  
+  - Governance boundaries (what the DAO can and cannot control).  
+  - Future zk-privacy layer (NNC Privacy Router) as **planned**, not yet deployed.
 
-## 🧭 Roadmap Summary  
-**Phase 1 (2026):** Foundation & Verification — Token-2022 deployment, treasury multisig, Social-AI Alpha.  
-**Phase 2 (2026 H2):** Engage-to-Earn Alpha — Off-chain Engagement Credits with on-chain redemption epochs and E2E API release.  
-**Phase 3 (2027):** Social-AI Economy & Creator Expansion — Marketplace Beta, AI Creator Hub, Reputation NFTs.  
-**Phase 4 (2028):** DAO Governance & Identity Scaling — Hybrid DAO Phase 3, identity-aware voting, community grants.  
-**Phase 5 (2028 – 2029):** Industry Integration — Healthcare (Open Health Rails), Education (Proof-of-Skill), Agriculture (IoT Staking), Industrial Automation, Supply Chain pilots.  
-**Phase 6 (Post-2029):** Cross-Chain Expansion & Global Adoption — EVM bridges, regional DAO councils, AI oracle integration.  
+- **Roadmap (2026–2029+)**  
+  `NNC_ROADMAP_2026.md`  
+  - Phase 1 — Foundations (token, router, trust engine alpha, digital marketplace, E2E v0).  
+  - Phase 2 — Hardening & Phygital Seed (vendor verification, early phygital pilots, Reputation DAO v1).  
+  - Phase 3 — Industry pilots + zk-privacy research & testnet.  
+  - Phase 4 — Multi-industry expansion where justified by demand.
 
-[📄 Read Full Roadmap →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_ROADMAP_2026.md)
+- **Security Audit Preparation (Vendor-Neutral)**  
+  `CERTIK_AUDIT_PREP_2026.md`  
+  - Scope and goals for independent smart-contract audits.  
+  - In-scope programs: Token-2022 NNC mint, NNC Fee Router, DecentraNet marketplace, Engage-to-Earn redemption, governance/multisig.  
+  - Phased audit plan aligned with the roadmap (Phase 1 → Phase 2 → Phase 3 zk-privacy).  
+  - Does **not** commit to any specific audit vendor; auditor selection and timing depend on budget, code maturity, and need.
 
----
+- **Mint Transparency Report**  
+  Included as Appendix D in the whitepaper, referencing live explorer links and immutable token configuration.
 
-## 🧾 CertiK Audit Preparation Overview  
-NeuralNet Coin operates under the **Solana Token-2022** framework with **0 % on-chain fees** and **DeFi-based revenue** from liquidity pools, staking yields, and marketplace fees.  
-
-**CertiK Audit Focus (Rev 4):**  
-- Token-2022 configuration integrity (supply, decimals, metadata).  
-- Engage-to-Earn Credit→NNC conversion contract and epoch caps.   
-- Treasury Council multi-sig and DAO governance security.  
-- Identity-aware proposal system (≥ 5 000 NNC stake).  
-- Continuous Skynet risk monitoring and transparency dashboard.  
-
-[📄 Read Full CertiK Prep →](https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/CERTIK_AUDIT_PREP_2026.md)
+These documents are kept synchronized: if any one changes, the others are updated to match.
 
 ---
 
-## 🛡️ Security & Compliance Philosophy  
-Security and transparency take precedence over expansion. Before any exchange listing or cross-chain deployment, NeuralNet Coin undergoes:  
-1. **Independent CertiK Audit & KYC.**  
-2. **Public reporting** of treasury and governance activity.  
-3. **DAO approval** for emission and treasury changes.  
+## 💠 Token Information
 
-NeuralNet Coin adheres to global digital-asset guidelines (SEC / MiCA) to maintain legal and operational clarity.  
+**Network:** Solana (Token-2022)  
+**Symbol:** NNC  
+**Total Supply:** 1,000,000,000 NNC (fixed)  
+**Decimals:** 9  
+
+**Mint Address (Mainnet):**  
+`BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF`
+
+According to the **Mint Transparency Report**:
+
+- Mint authority: **revoked**  
+- Freeze authority: **revoked**  
+- Metadata update authority: **disabled** (immutable metadata)  
+- Identity: immutable Token-2022 metadata
+
+This means:
+
+- No additional NNC can be minted.  
+- No token accounts can be frozen by a central authority.  
+- Metadata (name, symbol, URI) cannot be arbitrarily changed.
+
+### Ecosystem Fee Model
+
+- There is **no global transfer tax** encoded in the base token.  
+- Instead, NNC uses an **on-chain NNC Fee Router** that applies a  
+  **3% fee capped at 25 NNC per transaction** on **specific ecosystem flows**, such as:
+  - DecentraNet marketplace payments (buyer → seller).  
+  - Escrow releases.  
+  - Engage-to-Earn redemption payouts.  
+  - B2B subscription payments that opt into routing through the program.
+
+Fees are routed to:
+
+- Treasury (security, infra, growth),  
+- Potential burns (surplus-only, governance-approved),  
+- Operations, as defined in the whitepaper and future governance decisions.
+
+### Allocations (Summary)
+
+See the whitepaper for full detail. High-level:
+
+- **Founder:** 2.5% (25,000,000 NNC) with 12m cliff → 24m linear vesting.  
+- **Seed & Private:** 12% with locking and vesting.  
+- **Future Public Sale (Not Live):** 10%, conceptual only.  
+- **Ecosystem & Partnerships:** 20%.  
+- **Team & Advisors:** 15%.  
+- **Liquidity & Listings:** 10%.  
+- **Rewards & Engage-to-Earn:** 30% (emission with halving/tapering).
+
+No staking APY or yield is promised; any future staking or yield-like products, if implemented, must respect these allocations and will be explicitly described as **variable, usage-based, and non-guaranteed**.
 
 ---
 
-## 🌐 Official Links & Transparency  
-- **GitHub (Repository & Docs):** [https://github.com/HallbjornDeFi/NeuralNetCoin](https://github.com/HallbjornDeFi/NeuralNetCoin)  
-- **X (Twitter):** [https://x.com/neuralnetcoin](https://x.com/neuralnetcoin)  
-- **Telegram (Announcements):** [https://t.me/NeuralNetApp](https://t.me/NeuralNetApp)  
-- **Substack (Manifesto & Articles):** [https://substack.com/@neuralnetcoin](https://substack.com/@neuralnetcoin)  
-- **Discord (Coming Soon):** Role-gated community hub launching after CertiK verification.  
+## 🧩 Core Vision
 
-Please verify all links through the official GitHub repository to avoid impersonation or fraud.  
+NeuralNet Coin is designed as:
+
+1. **A Social-AI Trust Layer**  
+   - Scores accounts, content, and engagement for bot/scam/fake behavior.  
+   - Provides signals to communities, brands, and platforms.
+
+2. **A Commerce & Reward Layer**  
+   - **DecentraNet** marketplace for digital services (and later phygital goods) with NNC payments and optional escrow.  
+   - **Engage-to-Earn** credits for verified, high-signal contributions, periodically redeemable into NNC.
+
+3. **A Long-Horizon Infrastructure Token**  
+   - Future sectors (e.g., healthcare, education, agriculture, smart cities, DeSci) treated as **Phase 3–4 horizon**.  
+   - zk-privacy via an **NNC Privacy Router** and shielded pool is planned as an **optional, regulated, selective-disclosure tool**, not as a mixer.
+
+All of this is governed by a **hybrid model**:
+
+- Community and DAO guide non-critical areas (grants, roadmap signal, some parameters).  
+- Foundation/council retain control over security-critical and compliance-sensitive aspects (vendor approval, trust-engine policy, core contracts, legal actions).
+
+---
+
+## 🧭 Roadmap Summary (High-Level)
+
+For full detail, see `NNC_ROADMAP_2026.md`. Summarized:
+
+### Phase 1 — Foundations (Years 1–2)
+
+- Token-2022 NNC mint verified and immutable.  
+- Whitepaper Rev 4 and Mint Transparency Report published.  
+- NNC Fee Router live (3%, max 25 NNC/tx on defined flows).  
+- Social-AI Trust Engine **alpha → early beta**.  
+- DecentraNet **digital-only marketplace** (services, manual/early escrow).  
+- Engage-to-Earn v0 (small, tightly controlled campaigns).  
+- Treasury as multisig with transparent reporting.
+
+### Phase 2 — Hardening & Phygital Seed (Years 2–3)
+
+- Trust Engine **beta**, improved scoring, monitoring, and explanation.  
+- Vendor onboarding & reputation layer for DecentraNet.  
+- Selective **phygital** pilots (NNC payments → real-world fulfillment + NFT receipts).  
+- Engage-to-Earn v1: more robust caps, anti-Sybil protections.  
+- Reputation DAO v1 for non-critical governance.  
+- Security & Risk Review published.
+
+### Phase 3 — Industry Pilots & zk-Privacy Research (Years 3–5)
+
+- Limited pilots in 1–2 sectors (e.g., creator platforms, DeSci).  
+- Trust Engine SDK / APIs for partners.  
+- DecentraNet expansion with more vetted vendors.  
+- Engage-to-Earn v2: refined policies and reward tiers.  
+- zk-Privacy research and **NNC Privacy Router + shielded pool on testnet**, with compliance model and view keys.
+
+### Phase 4 — Multi-Industry Expansion (Years 5+)
+
+- Additional sector pilots (healthcare, education, agriculture, smart cities, DeSci) where justified.  
+- Production-grade SDKs across trust engine, marketplace, and rewards.  
+- Governance + legal decision on mainnet zk-privacy rollout.  
+- Optional horizon: NeuralNet Universe / City as a social hub and game-like environment tied into NNC rails.
+
+All timelines are **indicative**, not hard promises. Progress depends on security, legal, funding, and real demand.
+
+---
+
+## 🧾 Security Audit Preparation Overview
+
+The document `CERTIK_AUDIT_PREP_2026.md` describes how NeuralNet Coin will prepare for **independent security audits**. It is intentionally **vendor-neutral** and does not imply that any specific firm has been engaged or will be engaged at a given time.
+
+Key points:
+
+- Audits are planned **per phase**, not as a one-off event.  
+- Initial audit scope (Phase 1):  
+  - Token-2022 NNC mint configuration (immutability).  
+  - NNC Fee Router (3% capped fee).  
+  - DecentraNet marketplace (digital flows + escrow).  
+  - Engage-to-Earn redemption contract.  
+  - Governance / treasury multisig.
+
+- Later audits (Phase 2+) extend to:  
+  - Advanced marketplace features (disputes, reputation-linked logic).  
+  - Upgraded redemption logic and integrations.  
+  - Eventually, the **NNC Privacy Router** and shielded pool when they exist in code.
+
+Auditor selection, pricing, and timing will be decided based on:
+
+- Code maturity,  
+- Budget and funding,  
+- Risk profile and usage,  
+- Comparative quotes from different security firms.
+
+There is **no guarantee** that any particular vendor will be used.
+
+---
+
+## 🛡️ Security & Compliance Philosophy
+
+- **Utility token, not a guaranteed-return instrument.**  
+  - No APYs or fixed yields are promised anywhere in this repo or whitepaper.  
+- **Audits before critical upgrades (subject to budget).**  
+  - Router, marketplace, redemption, and privacy components are intended to be audited before mainnet deployment or major changes, when resources allow.  
+- **Selective zk-privacy, not a mixer.**  
+  - Future privacy features aim at commercial and consumer privacy with auditability, not obfuscation for its own sake.  
+- **Legal-first on sensitive sectors.**  
+  - Healthcare and other regulated areas will only be approached with appropriate compliance, de-identification, and jurisdictional analysis.  
+- **Transparent governance boundaries.**  
+  - DAO powers and limitations are clearly spelled out in the whitepaper.
+
+---
+
+## 🌐 Official Links & Transparency
+
+- **GitHub (Code & Docs):**  
+  `https://github.com/HallbjornDeFi/NeuralNetCoin`
+
+- **Whitepaper (2026 Edition, Rev 4):**  
+  `https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_WHITEPAPER_2026_UPDATED.md`
+
+- **Roadmap (2026–2029+):**  
+  `https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/NNC_ROADMAP_2026.md`
+
+- **Security Audit Prep (Vendor-Neutral):**  
+  `https://github.com/HallbjornDeFi/NeuralNetCoin/blob/main/CERTIK_AUDIT_PREP_2026.md`
+
+- **X (Twitter):**  
+  `https://x.com/neuralnetcoin`
+
+- **Telegram (Announcements):**  
+  `https://t.me/NeuralNetApp`
+
+- **Substack (Manifesto & Articles):**  
+  `https://substack.com/@neuralnetcoin`
+
+- **Discord:**  
+  Official, role-based Discord will be announced via the channels above once the structure is ready. It is **not** contingent on any specific auditor or vendor.
+
+Always verify domains and contract addresses using the official GitHub repository and explorer links in the whitepaper’s Mint Transparency Appendix to avoid impersonation or fraud.
 
 ---
 
