@@ -1,5 +1,3 @@
-We’ll keep the audit plan but make it explicitly vendor-neutral and non-committal. Here’s the updated README with CertiK references removed from headings and language (still compatible with your current file name if you don’t rename it):
-
 # **NeuralNet Coin (NNC)**  
 ### “Social-AI First — Building a Transparent, Ethical Future for Artificial Intelligence”
 
