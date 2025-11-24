@@ -178,7 +178,7 @@ For full detail, see `NNC_ROADMAP_2026.md`. Summarized:
 
 ### Phase 4 — Multi-Industry Expansion (Years 5+)
 
-- Additional sector pilots (healthcare, education, agriculture, smart cities, DeSci) where justified.  
+- Additional sector pilots (healthcare, education, agriculture, smart cities, DeSci, manufacturing) where justified.  
 - Production-grade SDKs across trust engine, marketplace, and rewards.  
 - Governance + legal decision on mainnet zk-privacy rollout.  
 - Optional horizon: NeuralNet Universe / City as a social hub and game-like environment tied into NNC rails.
