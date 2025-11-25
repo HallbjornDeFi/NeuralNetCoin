@@ -214,10 +214,13 @@ There is no possible rug vector.
 # 🌐 Official Links
 
 - **GitHub:** https://github.com/HallbjornDeFi/NeuralNetCoin  
-- **Solscan Token:** https://solscan.io/token/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF  
-- **Telegram:** (community link)  
-- **Substack:** NeuralNet Coin Manifesto  
-- **Whitepaper:** 2026 Edition (Rev 4)  
+- **Solana Explorer:** [https://solscan.io/token/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF](https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF)  
+- **X (Twitter)** (https://x.com/NeuralNetCoin)
+- **Telegram:** (https://t.me/NeuralNetApp)  
+- **Discord** (https://discord.gg/qXyP3UrJ) 
+- **Substack:** (https://open.substack.com/pub/neuralnetcoin/p/the-ethics-of-code-cryptos-lost-purpose?r=6rzj1w&utm_medium=ios)  
+- **Whitepaper:** 2026 Edition (Rev 4)
+    
 
 ---
 
