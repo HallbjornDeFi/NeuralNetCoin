@@ -242,20 +242,45 @@ Rewards real defensive labor:
 
 ## IX. Governance
 
-### 9.1 Token-weighted with Guardrails  
-- Proposal threshold: **5,000 NNC staked**  
-- Quorum requirement  
-- Timelock for treasury actions  
+### 9.1 Token-weighted with Guardrails
+NNC uses a token-weighted model with hard safety boundaries:
 
-### 9.2 Controls  
-Governance determines:
+- **Proposal threshold:** 5,000 NNC staked  
+- **Quorum requirement:** Minimum % of staked NNC required  
+- **Timelock:** Applied to treasury-moving proposals  
 
-- Emission schedules  
-- Treasury usage  
-- Fee Router configuration  
-- Ecosystem grant allocations  
+Governance actions execute only after timelock expiration to ensure transparency and protect against rushed changes.
 
-Governance cannot seize funds or alter locked allocation schedules.
+---
+
+### 9.2 Controls
+
+Governance may determine:
+
+- Emission schedules (within bounded ranges)  
+- Treasury usage and grants  
+- Ecosystem allocations  
+- Roadmap prioritization and cross-ecosystem partnerships  
+
+**Governance may NOT:**
+
+- Modify, disable, or reduce **Fee Router configuration**  
+- Override fixed token allocations or vesting schedules  
+- Seize user funds  
+- Alter the mint configuration (immutable)  
+
+---
+
+### 9.3 Foundation-Only Controls (Non-Governable)
+
+To ensure long-term sustainability, the following remain under exclusive control of the NeuralNet Foundation:
+
+- **NNC Fee Router parameters** (fees, caps, routing logic)  
+- Operational parameters required for revenue generation  
+- Core Trust Engine model weights and scoring logic  
+- Security-critical backend systems  
+
+These restrictions guarantee that NNC’s primary revenue engine cannot be voted into insolvency by short-term actors.
 
 ---
 
