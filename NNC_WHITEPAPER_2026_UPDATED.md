@@ -166,6 +166,32 @@ This design avoids “surprise taxes” on P2P transfers while enabling **sustai
 | Liquidity & Listings | 10 | 20–25 % TGE + streamed | DEX/CEX depth, MM support when appropriate, while minimizing “dev can dump through MM” risk |
 | Rewards & Engage-to-Earn | 30 | Emission halving | Engage-to-Earn + potential future staking incentives |
 
+### Official Treasury Address
+
+All treasury operations, fee routing, ecosystem grants, partner allocations, and Engage-to-Earn redemptions originate from the official NNC Treasury wallet:
+
+4D4ZnJ6TzJdmUZQi8WmiKJN57Pxe5pUjFJUSsVJuD5Mr
+
+This address is controlled by the founder until DAO governance is active.  
+No other address is authorized to represent the NNC treasury.
+
+---
+
+### Treasury Wallet (Canonical)
+
+The official treasury wallet for NeuralNet Coin (NNC) is:
+
+4D4ZnJ6TzJdmUZQi8WmiKJN57Pxe5pUjFJUSsVJuD5Mr
+
+This wallet holds:
+
+- Ecosystem reserves  
+- Engage-to-Earn redemption funds  
+- Fee Router outputs (treasury share)  
+- Early partnership and integration allocations  
+
+All treasury movements are publicly verifiable through Solana explorers.
+
 Notes:  
 - The **Rewards & Engage-to-Earn** bucket is primarily reserved for off-chain engagement credits that later redeem into NNC.  
 - Any future staking product, if launched, must use this bucket and respect emission caps.  
