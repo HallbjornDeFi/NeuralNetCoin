@@ -1,88 +1,89 @@
 # 🧠 NeuralNet Coin (NNC)
 ### “Social-AI First — Building a Trust Layer for the Internet”
 
-NeuralNet Coin (NNC) is a Solana Token-2022 asset powering the world’s first **Social-AI Trust Engine** — a decentralized system designed to detect scams, bots, and fake engagement across social and retail platforms while rewarding the humans who defend the network. NNC is not a meme. It is **infrastructure** — a trust rail for the next decade of human–AI interaction.
+NeuralNet Coin (NNC) is a Solana Token-2022 project powering the world’s first **Social-AI Trust Engine** — a decentralized infrastructure layer designed to detect scams, bots, coordinated inauthentic behavior, and fake engagement across social platforms and retail systems.  
+NNC is not a meme. It is **infrastructure** — a trust protocol for the next decade of AI-driven communication.
 
 ---
 
 # 📌 Mission Statement
 
-Modern internet platforms optimize for engagement, not truth. This produces:
+The modern internet optimizes for **engagement**, not **truth**, resulting in:
 
 - Bots  
 - Fake engagement  
 - Scam funnels  
 - Manipulated metrics  
-- Coordinated inauthentic behavior  
-- Massive retail ad-fraud losses  
+- Coordinated shill networks  
+- Massive ad-fraud losses for retail and enterprise  
 
-NNC solves this by building a **Social-AI Economy** where:
+NNC builds a **Social-AI Economy** where:
 
-- AI detects malicious patterns  
+- AI detects malicious behavior  
 - Humans label and defend the network  
-- Contributors earn NNC  
-- Brands pay in NNC for trust-filtered analytics  
-- A clean, verifiable attention layer emerges  
+- NNC rewards real contributions  
+- Retail and enterprise pay in NNC for trust-filtered intelligence  
+- The internet gains a clean, verifiable attention layer  
 
-This is **AI × Crypto × Social Infrastructure**.
+This is **AI × Crypto × Trust Infrastructure**.
 
 ---
 
 # 🧩 Core Components
 
-## 1. Social-AI Trust Engine  
+## **1. Social-AI Trust Engine**
 A real-time AI system that:
 
-- Flags bots, scammers, CIB networks  
+- Detects bots, scammers, and botnets  
 - Scores interactions as Trusted / Suspicious / High-Risk  
-- Provides trust overlays for creators, brands, and communities  
-- Powers scam-detection bots and browser extensions  
-- Enables trust-filtered retail funnels  
+- Powers scam-detection bots and browser overlays  
+- Provides risk maps for creators, brands, and communities  
+- Enables trust-filtered marketing funnels  
 
-Outputs include risk flags, trust scores, human/bot likelihood, and behavioral explanations.
+Outputs include: trust scores, bot-likelihood vectors, behavior explanations, and CIB detection.
 
 ---
 
-## 2. Engage-to-Earn (E2E)  
-NNC’s version of "mining."
+## **2. Engage-to-Earn (E2E)**
+NNC’s “mining” mechanism.
 
-Users earn credits (later redeemable as NNC) for:
+Users earn engagement credits — redeemable for NNC — by:
 
 - Reporting scams  
-- Labeling malicious content  
-- Training verification models  
-- Participating in trust-model evaluations  
+- Labeling malicious behavior  
+- Testing and training AI detection models  
+- Participating in Trust-Engine evaluations  
 
-Redemptions occur through **emission-capped epochs**.
-
----
-
-## 3. DecentraNet Marketplace  
-A peer-to-peer marketplace where:
-
-- Services & goods are priced in NNC  
-- Trust scores boost visibility  
-- Optional escrow protects buyers  
-- Digital and phygital commerce coexist  
-
-This becomes an early **utility sink** for NNC.
+Redemptions occur through **emission-capped epochs** to prevent inflation.
 
 ---
 
-## 4. NNC Fee Router (On-Chain Program)  
-A Solana program applying a **3% fee (max 25 NNC)** to designated flows such as:
+## **3. DecentraNet Marketplace**
+A service marketplace where users can buy and sell:
 
-- Marketplace trades  
-- Enterprise trust-filtering  
-- Subscription integrations  
+- Digital services (design, coding, AI tools, consulting)  
+- Phygital goods  
+- Optional escrow protection  
+- Trust-scored seller rankings  
 
-Fees route to:
+One of the earliest **utility sinks** for NNC.
 
+---
+
+## **4. NNC Fee Router (On-Chain Program)**
+A Solana program applying:
+
+- **3% fee (max 25 NNC)** to designated flows  
+  - Marketplace transactions  
+  - Enterprise trust-filtering subscriptions  
+  - SaaS Trust Engine integrations  
+
+Fee Split:
 - Treasury  
 - Burns  
 - Contributor incentives  
 
-The base NNC mint itself remains **0% tax**.
+The base NNC mint itself has **0% tax**.
 
 ---
 
@@ -98,50 +99,71 @@ The base NNC mint itself remains **0% tax**.
 | Freeze Authority | Revoked |
 | Metadata | Immutable |
 
-No new NNC can ever be minted.
+NNC can never be minted again.
 
 ---
 
-# 📊 Tokenomics (Updated to Match the 2026 Whitepaper)
+# 📊 Tokenomics (Final 2026 Model — Treasury Protected)
 
-### **Total Supply**
-**1,000,000,000 NNC** — fixed forever.
+### Total Supply: **1,000,000,000 NNC**
 
----
+To guarantee long-term stability, sustainability, and anti-rug architecture, NNC uses a **Treasury-First model**, ensuring the Treasury always holds the majority of supply.
 
-## **Allocations & Vesting**
+## **Final Allocation Breakdown**
 
-| Bucket | % | Amount | Vesting | Purpose |
-|--------|--:|-------:|---------|---------|
-| **Founder** | 3% | 30,000,000 | **12-month cliff → 24-month linear** | Long-term alignment; anti-rug integrity |
-| **Seed & Private** | 12% | 120,000,000 | **12-month lock → 10%/month** | Infra + strategic contributors |
-| **Public Presale (Future)** | 10% | 100,000,000 | **10% TGE → 12-month linear** | Extremely fair launch optics |
-| **Ecosystem & Partnerships** | 20% | 200,000,000 | ≤ 2.5%/quarter | Grants, integrations, pilots |
-| **Team & Advisors** | 15% | 150,000,000 | 12-month cliff → 24-month linear | Retention |
-| **Liquidity & Listings** | 10% | 100,000,000 | 20–25% TGE + streamed | Liquidity depth |
-| **Rewards & Engage-to-Earn** | 30% | 300,000,000 | Emission halving | Incentives for network defense |
+| Bucket | Amount (NNC) | % Supply | Vesting | Purpose |
+|--------|--------------:|---------:|---------|---------|
+| **Treasury / Long-Term Reserve** | **700,000,000** | **70.0%** | Unlocked (DAO later) | Stability, multi-year runway, ecosystem sustainability |
+| **Rewards & Engage-to-Earn** | **245,000,000** | **24.5%** | Emission epochs | Incentives for trust-layer contributions |
+| **Founder** | **30,000,000** | **3.0%** | 12-month cliff → 24-month linear vest | Long-term alignment & anti-rug structure |
+| **Ecosystem & Partnerships** | 10,000,000 | 1.0% | ≤2.5%/quarter | Integrations, grants, enterprise pilots |
+| **Team & Advisors** | 5,000,000 | 0.5% | 12-month cliff → 24-month vest | Contributor retention |
+| **Liquidity & Listings** | 5,000,000 | 0.5% | 20% TGE + streamed unlock | Conservative liquidity footprint |
+| **Seed & Private** | 3,000,000 | 0.3% | 12-month lock | Minimal early contributors |
+| **Public Presale** | **2,000,000** | **0.2%** | 10% TGE → 12-month linear | Ultra-fair launch with near-zero dilution |
+| **Total** | **1,000,000,000** | **100%** | — | — |
+
+### Why This Model Is Optimal
+- Treasury holds **70%** — impossible to drain  
+- Rewards remain large enough for 5+ years  
+- Founder allocation small but sustainable  
+- Ultra-low dilution & presale risk  
+- Circulating supply tightly controlled  
+- Perfect long-term runway for Social-AI infrastructure  
 
 ---
 
 # 🏛️ Official Treasury Wallet
 
-All ecosystem reserves, Fee Router outputs, partnership distributions, and Engage-to-Earn redemption liquidity originate from the official NNC treasury: 4D4ZnJ6TzJdmUZQi8WmiKJN57Pxe5pUjFJUSsVJuD5Mr
+This is the **only** wallet responsible for:
 
-This wallet is publicly verifiable on Solana explorers and controlled by the founder until DAO governance activates.
+- Ecosystem reserves  
+- Fee Router distributions  
+- Engage-to-Earn redemptions  
+- Long-term runway  
+- Future DAO-controlled operations  
+
+### **Official NNC Treasury Address:**
+4D4ZnJ6TzJdmUZQi8WmiKJN57Pxe5pUjFJUSsVJuD5Mr
+
+Publicly verifiable on Solana explorers.
 
 ---
 
 # 🔒 Anti-Rug Architecture
 
-NNC is engineered to be structurally non-ruggable:
+NNC is engineered to be **structurally non-ruggable**:
 
 - Founder tokens locked 12 months  
-- 24-month linear founder unlock after cliff  
-- Low presale TGE unlock (10%)  
-- No surprise emissions  
-- Mint & freeze authorities revoked  
-- Treasury address fully transparent  
-- Token-2022 metadata immutable  
+- Linear unlock over 24 months after cliff  
+- Presale allocation only 0.2%  
+- All authorities revoked (mint, freeze)  
+- Metadata immutable  
+- Treasury holds 70% of supply  
+- Minimal circulating supply early  
+- Transparent vesting schedule  
+
+There is no possible rug vector.
 
 ---
 
@@ -149,43 +171,43 @@ NNC is engineered to be structurally non-ruggable:
 
 ## **Phase 1 — Foundations (Now)**
 - Token-2022 deployment  
-- Metadata + explorer verification  
-- Early Social-AI prototypes  
-- Reporting → credit pipeline  
-- Marketplace MVP  
-- Fee Router base program  
+- Explorer + metadata verification  
+- Early Trust Engine prototypes  
+- Reporting → credit → scoring pipeline  
+- Marketplace MVP (digital services)  
+- Fee Router foundation  
 
 ## **Phase 2 — Social-AI Integration**
-- Advanced scam/bot modeling  
+- Bot/scam behavioral modeling  
+- Full trust overlays  
 - Brand dashboards  
-- Trust overlays  
-- E2E credits → NNC epoch redemptions  
-- Retail pilots  
+- E2E → NNC redemption epochs  
+- Retail pilot integrations  
 
-## **Phase 3 — Scaling the Trust Layer**
-- Phygital commerce  
-- SDK/API expansion  
-- Network-wide trust oracles  
-- CIB detection clustering  
-- Liquidity strengthening  
+## **Phase 3 — Ecosystem Expansion**
+- Phygital commerce flows  
+- SDK/API for developers  
+- Trust Oracle services  
+- Decentralized detection clusters  
+- Strengthened liquidity  
 
-## **Phase 4 — Open Ecosystem**
+## **Phase 4 — Open Network**
 - Reputation NFTs  
-- AI agent/creator tools  
-- DAO activation  
+- AI agent/creator frameworks  
+- DAO governance activation  
 - Third-party marketplaces  
-- Embedded Trust Engine across apps  
+- Trust Engine embedded across social platforms  
 
 ---
 
 # 🔧 Development Stack
 
-- **Solana Token-2022**  
-- **Anchor** smart contracts (Fee Router + future privacy modules)  
-- **Node.js / TypeScript** backend  
-- **LLM/ML stack** for detection  
-- **IPFS** for metadata  
-- **Unity / Three.js** for NeuralNet City prototyping  
+- Solana Token-2022  
+- Anchor (Fee Router + privacy modules)  
+- Node.js / TypeScript backend  
+- ML/LLM detection models  
+- IPFS metadata storage  
+- Unity / Three.js for NeuralNet City prototyping  
 
 ---
 
