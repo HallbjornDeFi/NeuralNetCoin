@@ -9,143 +9,148 @@
 
 ## 🪙 I. Introduction
 
-NeuralNet Coin (NNC) powers a **Social-AI Economy** — an open ecosystem where human insight, moderation, and creativity are treated as first-class economic inputs, not free exhaust for centralized platforms.
+NeuralNet Coin (NNC) powers a **Social-AI Economy** — an open ecosystem where:
 
-Where Web2 social networks monetize attention and sell it to advertisers, NNC’s design aims to:
+- AI systems help humans navigate an information environment dominated by bots, scams, and noise.  
+- Human effort to defend others from fraud and manipulation is **economically rewarded**, not ignored.  
+- Brands and creators gain a programmable “trust rail” that filters engagement before capital is deployed.  
 
-- Reward authentic human participation.  
-- Use that participation to train and guide AI systems.  
-- Settle value on-chain using a transparent, predictable token.
+The long-term vision is to transform “engagement” from a shallow metric into a **verifiable proof of human, high-signal interaction**.
 
-The **2026 Edition (Rev 4)** aligns the original 2025 “Social AI First” thesis with the realities of building as a small, independent team:
+NNC is built on **Solana’s Token-2022 standard**, taking advantage of:
 
-- It narrows the **near-term focus** to:  
-  1. A **Social-AI Trust Engine** for scam/bot/fake-engagement detection.  
-  2. The **DecentraNet digital marketplace**, where services are paid in NNC.  
+- High throughput and low latency for real-time social signals.  
+- Flexible token extensions (transfer hooks, metadata, future privacy features).  
+- A growing ecosystem of DeFi and infrastructure that can integrate NNC as a settlement and governance layer.
 
-- It moves cross-industry ambitions (healthcare, education, smart cities, DeSci, manufacturing, etc.) into clearly labeled **Phase 3–4 horizon work**.
+This whitepaper defines:
 
-The goal is simple and realistic: **ship a secure, useful core**, then let that foundation earn the right to expand.
-
----
-
-## 🧩 II. Strategic Analysis — NNC Positioning
-
-### 2.1 The Problem Landscape
-
-Today’s internet suffers from three converging problems:
-
-1. **Engagement Without Ownership**  
-   - Users, moderators, and small creators generate immense value.  
-   - Platforms capture almost all of it.  
-   - Data and behavior train AI models that users cannot influence or share in economically.
-
-2. **Fraud, Bots, and “Synthetic” Social Proof**  
-   - Fake accounts, coordinated spam, and engagement farms distort reality.  
-   - Scam campaigns target vulnerable demographics and brands.  
-   - Existing tools are centralized, proprietary, and often reactive instead of preventative.
-
-3. **Fragmented Web3 Value**  
-   - Many tokens exist without real utility or cash flows.  
-   - “Tax tokens” and unsustainable APY promises erode trust.  
-   - Few projects connect **real-world fraud problems** with **on-chain value routing**.
-
-### 2.2 NNC’s Core Thesis
-
-> **NNC is a decentralized trust and reward layer for the internet — starting with social platforms and commerce.**
-
-NNC is not trying to be yet another “general-purpose DeFi token.”  
-Instead, it focuses on:
-
-- Turning **verified human actions** into off-chain credits that can redeem into NNC.  
-- Providing a **Social-AI Trust Engine** that brands and platforms can subscribe to.  
-- Powering **DecentraNet**, a marketplace where services and, later, goods are bought and sold using NNC under strong verification rules.
-
-### 2.3 Near-Term vs Long-Term Scope
-
-To stay honest and executable, the project is explicitly split into:
-
-**Phase 1–2: Near-Term, Concrete Build**
-
-- Social-AI Trust Engine (bot / scam / fake-engagement detection).  
-- DecentraNet digital services marketplace with NNC payments and optional escrow.  
-- **NNC Fee Router** (3 % capped) applied to defined ecosystem flows.  
-- **Engage-to-Earn** framework with off-chain credits and carefully controlled on-chain redemption.
-
-**Phase 3–4: Long-Term Horizon**
-
-- Industry verticals such as healthcare, education, smart cities, agriculture, DeSci, and manufacturing.  
-- AI Creator Hub and richer reputation systems.  
-- Deeper integrations with platforms, cities, and institutions.
-
-Nothing in Phase 3–4 is promised on a specific timeline. It is intentionally framed as a **vision contingent on Phase 1–2 success**.
-
-### 2.4 Competitive Position
-
-NNC differentiates itself by combining:
-
-- **Real utility from day one** — fraud and bot mitigation, plus a working marketplace.  
-- **Non-extractive token design** — no stealth transfer taxes; fees are explicit via the router on specific flows.  
-- **Hybrid governance** — community voice on growth and funding, with strong guardrails on security-critical decisions.  
-- **Long-term, multi-industry potential** without pretending those integrations are “right around the corner.”
+1. The **problem** of trust collapse in social and economic networks.  
+2. The **architecture** for a Social-AI Trust Engine.  
+3. The **tokenomics** and emission structure for NNC.  
+4. A realistic, multi-year **roadmap** that prioritizes utility and resilience over hype.
 
 ---
 
-## 💬 Engage-to-Earn — Off-Chain Credit-to-NNC Model
+## II. Problem: Trust Has Collapsed, But Engagement Keeps Going Up
 
-To reward valuable human participation while maintaining efficiency and regulatory flexibility, NNC uses a **two-layer reward system** built around *Engagement Credits* and *NNC redemption*.
+The modern internet is optimized for **engagement metrics**, not truth:
 
-### 1️⃣ Purpose
+- Platforms monetize views, clicks, and watch time — not accuracy, authenticity, or safety.  
+- Bots and coordinated networks can simulate “virality” with minimal cost.  
+- Retail brands collectively lose billions to **ad fraud**, **fake traffic**, and **low-quality impressions** that never convert.  
+- Everyday users — especially non-technical people — are exposed to a constant stream of scams, impersonations, and social-engineering attacks.
 
-The Engage-to-Earn (E2E) mechanism lets people earn recognition and eventual NNC for:
+Crypto was supposed to be different: transparent, open, and self-custodial.  
+Instead, most people now associate it with:
 
-- Reporting scams, bots, and fake engagement.  
-- Moderation and curation work.  
-- High-signal contributions in NNC ecosystems.  
-- Interactions with NeuralNet AI agents.
+- Rug pulls and stealth unlocks.  
+- Wash-traded NFT markets.  
+- Meme tokens with no clear purpose.  
 
-…without minting tokens on-chain for every micro-action.  
-It protects the network from spam, simplifies compliance, and allows rapid iteration.
+The common thread between Web2 and Web3 failures is the same:
 
-### 2️⃣ Two-Layer Architecture
+> There is **no native trust layer** that continuously scores behavior, aligns incentives, and rewards those who defend the network.
 
-1. **Engagement Credits (Off-Chain)**  
-   - Issued instantly for verified actions inside NNC apps.  
-   - Stored off-chain (database) for speed and revocability.  
-   - Audited by the trust engine and anti-Sybil systems.
+### 2.1 Existing “Solutions” Are Not Enough
 
-2. **NNC Redemption (On-Chain, Batched)**  
-   - Periodic redemption windows (epochs).  
-   - Engagement credits → NNC via treasury allocations.  
-   - Routed through the **NNC Fee Router (3 % capped)** to sustain the ecosystem.
+1. **Centralized Trust & Safety Teams**  
+   - Opaque, politicized, and non-portable between platforms.  
+   - Incentivized to protect the platform’s revenue, not users’ long-term wellbeing.  
 
-### 3️⃣ Why Off-Chain First
+2. **Static Blacklists and Heuristic Filters**  
+   - Outdated quickly.  
+   - Trivially bypassed by adversaries who adapt faster than the lists.  
 
-- Avoids gas spam and micro-tx overhead.  
-- Allows clawback or adjustment when fraud is detected.  
-- Keeps compliance simpler; credits are *points*, not financial instruments.  
-- Lets the team adjust scoring and weights as models improve.
+3. **KYB / KYC-Heavy Approaches**  
+   - Create honeypots for sensitive personal data.  
+   - Don’t model *behavior* or *intent*; they reduce trust to “we saw your passport once.”  
 
-### 4️⃣ Anti-Abuse Controls
+4. **Purely On-Chain Reputation**  
+   - Wallet-age, NFT badge, or token holdings are not sufficient indicators of trust.  
+   - Sybil farms can simulate “organic activity” cheaply.  
 
-- Daily/weekly caps on credits per identity.  
-- Device / IP / behavior-based anomaly detection.  
-- Reputation-weighted attesters; not every “report” is equal.  
-- Slashing or freezing of credits if abuse is detected.
+The gap is clear: we need a system where **AI, cryptography, and human oversight** converge to produce a:
 
-Engage-to-Earn is deliberately conservative at first: **small-scale, tightly monitored, and iterated over time.**
+> “Real-time, adversarially robust **Trust Engine** that spans platforms, chains, and use cases.”
 
 ---
 
-## 💠 IV. Tokenomics (Full Model)
+## III. Vision: A Social-AI Trust Engine Powered by NNC
 
-| Property | Value |
-|:--|:--|
-| Network | Solana Token-2022 |
-| Symbol | NNC |
-| Total Supply | 1 000 000 000 (fixed) |
-| Decimals | 9 |
-| Transfer Fee | Base token designed for 0 % on-chain transfer tax; ecosystem flows use a 3 % capped fee via the NNC Fee Router (max 25 NNC/tx) |
+NeuralNet Coin’s north star:
+
+> Build the **world’s first decentralized Social-AI Trust Engine** that defends users and brands from scams, bots, and fake engagement — and pays humans for doing that work.
+
+### 3.1 What the Trust Engine Does
+
+The Social-AI Trust Engine is a set of models, services, and protocols that:
+
+- Analyze content, network graphs, and behavioral data (within legal and ethical boundaries).  
+- Detect patterns of:
+  - Scam outreach (DM scams, phishing funnels, refund scams, “recovery” scams, etc.).  
+  - Botnets and inorganic engagement farms.  
+  - Coordinated shill campaigns and manipulative narratives.  
+- Output **trust evaluations** and **risk signals** such as:
+  - “Likely human vs. likely bot”  
+  - “Low-risk vs. high-risk interaction”  
+  - “Clean vs. compromised attention funnel”  
+
+These outputs are made available via:
+
+- Consumer interfaces (extensions, bots, dashboards).  
+- APIs for brands and platforms.  
+- On-chain hooks and oracles for DeFi/marketplace use.
+
+### 3.2 Why a Token Is Needed
+
+NNC exists to:
+
+1. **Reward Human Defenders**  
+   - People who label scams, report malicious actors, verify context, or help retrain the models.  
+
+2. **Price Enterprise-Grade Trust Filtering**  
+   - Brands pay in NNC for access to higher-throughput, higher-SLA filtering and analytics.  
+
+3. **Align Long-Term Governance**  
+   - Token holders help decide emission schedules, fee routing, and treasury usage.  
+
+4. **Create a Durable Economic Loop**  
+   - Instead of extracting value from users and dumping it into opaque corporate balance sheets, NNC aims to recycle value between:
+     - Brands (who pay for filtering & analytics).  
+     - Defenders & contributors (who earn NNC).  
+     - The treasury (which supports ongoing development and operations).  
+
+NNC is **not** designed as a “get rich quick” vehicle.  
+It is an economic coordination primitive for building and maintaining an adversarial AI system in defense of human users.
+
+---
+
+## IV. Token Design and Economics
+
+### 4.1 Base Asset
+
+- **Chain:** Solana mainnet-beta  
+- **Standard:** Token-2022  
+- **Symbol:** NNC  
+- **Total Supply:** 1,000,000,000 NNC (fixed)  
+- **Decimals:** 9  
+
+Token-2022 is chosen for:
+
+- Native support of **metadata extensions** and future features like transfer hooks, potential privacy extensions, and flexible fee mechanisms.  
+- Compatibility with the broader Solana DeFi stack (AMMs, orderbooks, lending, etc.).  
+- Low latency and high throughput to support real-time interactions and micro-transactions tied to the Trust Engine.
+
+**Transfer Fees / Router Model**
+
+- The base NNC mint is configured for **0% protocol-level transfer tax**.  
+- Select flows (e.g., marketplace trades, subscription payments) may route through an on-chain **NNC Fee Router** that applies a **3% capped fee (max 25 NNC/tx)** and splits it between:
+  - Treasury  
+  - Burns  
+  - Incentive pools  
+
+This design avoids “surprise taxes” on P2P transfers while enabling **sustainable revenue** on economically meaningful flows.
 
 ---
 
@@ -153,17 +158,18 @@ Engage-to-Earn is deliberately conservative at first: **small-scale, tightly mon
 
 | Bucket | % Supply | Vesting | Purpose |
 |:--|--:|:--|:--|
-| Founder | 2.5 | 12 mo cliff → 24 mo linear | Signal long-term integrity and skin-in-the-game |
+| Founder | 3 | 12 mo cliff → 24 mo linear | Signal long-term integrity and skin-in-the-game; no founder tokens transferable in Year 1 |
 | Seed & Private | 12 | 12 mo lock → 10 %/mo | Strategic funding and infrastructure |
-| Public Presale (Future) | 10 | 25 % TGE → 6 mo linear | Community distribution (not live yet) |
+| Public Presale (Future) | 10 | 10 % TGE → 12 mo linear | Community distribution (not live yet) with “extremely fair launch” optics |
 | Ecosystem & Partnerships | 20 | ≤ 2.5 %/qtr | Grants, strategic integrations, co-marketing |
 | Team & Advisors | 15 | 12 mo cliff → 24 mo linear | Retention of key contributors |
-| Liquidity & Listings | 10 | 40 % TGE + streamed | DEX/CEX depth, MM support when appropriate |
+| Liquidity & Listings | 10 | 20–25 % TGE + streamed | DEX/CEX depth, MM support when appropriate, while minimizing “dev can dump through MM” risk |
 | Rewards & Engage-to-Earn | 30 | Emission halving | Engage-to-Earn + potential future staking incentives |
 
 Notes:  
 - The **Rewards & Engage-to-Earn** bucket is primarily reserved for off-chain engagement credits that later redeem into NNC.  
-- Any future staking product, if launched, must use this bucket and respect emission caps.
+- Any future staking product, if launched, must use this bucket and respect emission caps.  
+- NeuralNet Coin is architected from day one with zero rug-pull vectors: founder tokens remain locked for the first 12 months and then unlock linearly over 24 months, eliminating any early-dump risk.
 
 ---
 
@@ -182,13 +188,11 @@ The following structure is **conceptual** and will not be activated without lega
   - Strong KYC/AML where required, and clear disclosures.  
   - Priced conservatively relative to circulating utility and actual revenue.
 
-Any concrete dates, hard USD targets, or APY promises from earlier drafts are deprecated.
+Any concrete dates, hard USD targets, or APY promises from earlier drafts are deprecated. Future presales, if any, will adhere to:
 
-The actual sale design will only be finalized after:
-
-1. The Social-AI Trust Engine has active users.  
-2. The DecentraNet digital marketplace handles real transactions.  
-3. Legal counsel has reviewed the proposed sale structure.
+- **Lower TGE unlocks and longer linear vesting**, as reflected in the tokenomics table (e.g., 10 % TGE → 12 months linear for the public presale).  
+- Clear, verifiable communication about vesting, cliffs, and unlock schedules.  
+- No stealth changes to founder, team, or partner allocations.
 
 ---
 
@@ -201,488 +205,347 @@ The actual sale design will only be finalized after:
 
 ---
 
-## 🧠 V. Ecosystem Utility Highlights
+## V. Social-AI Trust Engine — Architecture
 
-NNC’s utility can be grouped into **near-term (Phase 1–2)** products that are actively being built, and **long-horizon (Phase 3+)** concepts that describe where the architecture can go once the foundation is proven.
+### 5.1 Data Inputs
 
-### Phase 1–2 — Active Focus
+The Trust Engine is designed to ingest and operate on:
 
-| Feature | Purpose |
-|:--|:--|
-| Social-AI Trust Engine | Bot / scam / fake-engagement detection for social platforms and brands |
-| DecentraNet Marketplace (Digital) | Peer-to-peer digital services settled in NNC with optional escrow |
-| Engage-to-Earn Framework | Off-chain engagement credits redeemable into NNC under strict controls |
-| NNC Fee Router | 3 % capped ecosystem fee on defined flows, routing value to treasury and burns |
+1. **User Reports & Labels**  
+   - “This DM looks like a scam.”  
+   - “This account behaves like a bot.”  
+   - “This link redirects to a phishing page.”  
 
-### Phase 3+ — Long-Term Horizon
+2. **Behavioral & Graph Signals**  
+   - Posting frequency and timing.  
+   - Reply vs. original-post ratios.  
+   - Follower/following asymmetries.  
+   - Overlapping audiences and suspicious correlation with known spam networks.  
 
-| Feature | Purpose |
-|:--|:--|
-| AI Creator Hub | Launch monetized AI agents and tools on top of NNC rails |
-| Open Health Rails | Healthcare transparency and research-incentive infrastructure |
-| Reputation NFTs | Non-transferable credentials proving ethical and valuable contribution |
-| API Integration Layer | External apps/payments using NNC for AI and trust micro-payments |
+3. **Platform Integrations (APIs & Log Exports)**  
+   - For brands and large communities, aggregated engagement and clickstream data (subject to legal constraints).  
 
-These later-phase utilities remain **visionary** until the Phase 1–2 stack is stable and used in production.
+4. **On-Chain Data**  
+   - For crypto-native use cases, transaction patterns, wallet relationships, and past participation in scams or exploits.
 
----
+The system is designed with **privacy and compliance** in mind:
 
-## ⚙️ VI. Protocol Architecture Overview
+- Individual PII is minimized and, where possible, replaced with anonymized or hashed signals.  
+- Regional data-handling requirements (e.g., GDPR) are respected for any product that touches regulated markets.  
 
-- **Base Layer:** Solana Token-2022 standard for NNC with metadata extensions.  
-- **NNC Fee Router:** Anchor-based program applying a **3 % capped fee (max 25 NNC/tx)** on defined ecosystem flows (marketplace payments, Engage-to-Earn redemptions, B2B settlements) and routing value to treasury, burns, and operations.  
-- **Off-Chain Credit Layer:** Databases and services that track engagement credits, vendor reputation, and trust scores before settlement on-chain.  
-- **Treasury Multisig → DAO:** Security-first treasury with gradual transition to on-chain governance for non-critical spending decisions.  
-- **Oracles & Attesters:** Services that validate social data, reports, and marketplace events before rewards are assigned.  
-- **Identity & Reputation:** Optional identity-aware tiers and non-transferable credentials for high-trust actors.  
-- **Auditability:** Logging, monitoring, and third-party smart-contract audits before mainnet critical-path upgrades.  
-- **POL (Optional Later):** Protocol-owned liquidity may be used in future to deepen markets, but is not required for Phase 1–2.
+### 5.2 Detection Stack
 
-### zk-Privacy Layer (Planned)
+The Trust Engine uses a layered approach:
 
-In later phases, NeuralNet Coin intends to introduce an optional **zk-privacy layer** built around an on-chain **NNC Privacy Router** and a shielded NNC pool.
+1. **Rule-Based Filters** for cheap, obvious cases.  
+2. **Statistical Models** for anomalies and distribution shifts.  
+3. **Graph-Based Algorithms** for sybil cluster detection.  
+4. **LLM-Based Reasoning** for context-aware classification of messages and narratives.
 
-- The **NNC Privacy Router** will verify zero-knowledge proofs that show a spend is valid (originating from an unspent note inside the pool, within defined limits, and with fees paid) **without revealing** the underlying balances or links between deposit and withdrawal addresses.  
-- Users will be able to move NNC between public accounts and a shielded pool (`public → shielded → public`) using zk-proofs, while the protocol still enforces the equivalent of the 3 % ecosystem fee inside the privacy pool.  
-- Off-chain zk prover services and open circuits will generate these proofs; the on-chain router will only verify them and update pool state.
+Over time, a continuous feedback loop retrains the models based on:
 
-This zk-privacy layer is explicitly designed **not** to be a “black-box mixer.”  
-Its purpose is to provide **selective disclosure and commercial privacy** (e.g., for merchants, enterprises, and high-value users), while still remaining compatible with audit, compliance, and treasury visibility requirements.
+- Label quality scores (good reporters vs. spammy reporters).  
+- Adversarial testing and red-teaming.  
+- Real-world performance against known scam campaigns and botnets.
 
----
+### 5.3 Outputs
 
-## 💰 VII. Economic Model — Revenue Loop
+Key outputs include:
 
-Rather than relying on unsustainable emissions or speculative APY promises, NNC’s economy is designed around **real usage** and **service revenue**.
+- **Risk Flags:**  
+  - “High-risk DM” / “High-risk link” / “Likely scam funnel.”  
 
-### 7.1 Primary Revenue Streams
+- **Trust Scores:**  
+  - Account-level, interaction-level, and campaign-level scores.  
 
-1. **DecentraNet Router Fees (3 % Capped)**  
-   - Applied to:  
-     - Marketplace payments (buyer → seller).  
-     - Escrow releases.  
-     - Engage-to-Earn redemptions.  
-     - B2B subscription payments that settle through the router.  
-   - Capped at **25 NNC per transaction** to remain affordable at scale.  
+- **Explanations:**  
+  - Human-readable justifications like “Account created 2 days ago, 400 replies, 0 original posts, overlaps with 12 known spam clusters.”
 
-2. **Social-AI Trust Engine (B2B Subscriptions)**  
-   - Brands and retailers pay NNC for:  
-     - Bot / spam / fake-engagement detection.  
-     - Scam classification and fraud signaling.  
-     - Trust scores on accounts, posts, and campaigns.  
-   - Regular users pay **zero**; they can even earn via Engage-to-Earn.
+These outputs are exposed through:
 
-3. **DecentraNet Marketplace Fees**  
-   - Optional listing and promotion fees in NNC (featured spots, boosted visibility).  
-   - Micro-fees on escrow usage and dispute resolution as services mature.  
-
-4. **Vendor Verification & Identity Services**  
-   - NNC-denominated fees for KYB/KYC, vendor onboarding, and “Verified Vendor” badges.  
-   - Potential NFT-based identity credentials for high-trust sellers.
-
-5. **NFT Receipts & Authenticity Certificates**  
-   - Small NNC fees for minting:  
-     - Order receipts as NFTs.  
-     - Authenticity certificates for phygital items.  
-     - Long-term warranties or service contracts.
-
-6. **Future Enterprise & SDK Licensing (Phase 3+)**  
-   - Paid access to SDKs and APIs: Trust Engine, marketplace rails, escrow tools.  
-   - Potential anonymized trust-signal feeds for platforms that integrate deeply.
-
-### 7.2 Flow of Funds
-
-**Router & Service Revenue → Treasury → Ecosystem Uses**
-
-Priority order for treasury usage:
-
-1. **Security & Infrastructure**  
-   - Audits, monitoring, bug bounties, and core infrastructure.
-
-2. **Product & Ecosystem Growth**  
-   - Grants, bounties, and partnerships that directly improve Phase 1–2 products.
-
-3. **Engage-to-Earn & Community Incentives**  
-   - Periodic allocations to Engage-to-Earn redemption pools and community programs.
-
-4. **Optional Buyback & Burn (Surplus-Only)**  
-   - When fundamentals justify it, a portion of surplus may be used to buy back and burn NNC, but this is not guaranteed.
-
-### 7.3 No Guaranteed Yields
-
-- There is **no protocol promise** of fixed APY or “risk-free yield.”  
-- Returns to holders and contributors arise from:  
-  - Network usage,  
-  - Service revenues, and  
-  - Governance-approved distributions.  
-- Any staking module, if introduced, will be explicitly described as **non-guaranteed and variable**.
+- Browser extensions, bots, and companion apps for end users.  
+- Dashboards and APIs for brands.  
+- Oracles or off-chain feeds for DeFi/marketplaces.
 
 ---
 
-## 🧱 VIII. Governance — Identity-Aware DAO
+## VI. DecentraNet Marketplace — NNC as Settlement Layer
 
-NNC governance is intentionally **hybrid**:
+DecentraNet is a marketplace concept designed for:
 
-- Decentralized where it is safe and aligned with community interests.  
-- Foundation/council-controlled where security, legality, or ecosystem integrity are at risk.
+- **Digital services**: design, development, AI tooling, consulting, analysis, etc.  
+- **Physical goods / merchandise**: sellers can accept NNC for products, with logistics handled through traditional shipping or fulfillment partners.
 
-### 8.1 Governance Phases
+Key properties:
 
-**Phase 1 — Foundation Oversight (Current)**  
-- Multisig treasury with transparent reporting.  
-- Community feedback via off-chain channels.  
-- No direct on-chain voting control over critical contracts.
+- Sellers list offers priced in NNC.  
+- Buyers pay in NNC using supported wallets (e.g., Phantom + Solana Pay style flows).  
+- Optional **escrow** via smart contracts where:
+  - Funds are locked when an order is placed.  
+  - Released when the buyer confirms delivery or an arbitration mechanism resolves disputes.  
 
-**Phase 2 — Reputation DAO (Future)**  
-- Reputation-weighted voting for non-critical decisions (grants, roadmap guidance).  
-- Staked NNC plus off-chain contribution history can influence voting power.  
+The Social-AI Trust Engine enhances DecentraNet by:
 
-**Phase 3 — Expanded On-Chain Governance (Long-Term)**  
-- Wider DAO control over budget allocations and other non-security-critical parameters.  
-- Critical-path controls remain guarded behind stricter processes.
+- Ranking sellers and buyers by trust metrics.  
+- Flagging suspicious listings or accounts.  
+- Providing **“trust overlays”** (visual indicators) inside the marketplace UI.
 
-### 8.2 What the DAO Can Control
+DecentraNet is intended to be:
 
-These areas are designed to be governed by staked NNC holders over time:
-
-- Treasury grants and ecosystem funding (within budget limits).  
-- Prioritization of product features and marketplace improvements.  
-- Selection of pilot verticals or integration partners (once products are live).  
-- Engage-to-Earn policy parameters (caps, eligible actions, review cadence).  
-- Community roles and recognition (ambassadors, moderators, working groups).  
-
-DAO proposals will typically require:
-
-| Rule | Phase 2 | Phase 3 |
-|:--|--:|--:|
-| Quorum | 8 % | 12 % |
-| Approval | 60 % | 66 % |
-| Proposal Threshold | 0.1 % / Rep-3 | 0.25 % / Rep-4 |
-| Emergency Pause | 5/7 signers | DAO super-majority |
-
-### 8.3 What the DAO Cannot Control
-
-To keep DecentraNet and the Social-AI Trust Engine safe, certain powers remain **non-delegable** and sit with the NeuralNet foundation/council:
-
-- **Vendor Approval & Removal** for DecentraNet.  
-- **Trust Engine Policies** — thresholds, blacklists, ML model choices, and fraud-flagging heuristics.  
-- **Core Smart Contracts** — NNC Fee Router, escrow engine, marketplace core, privacy layer.  
-- **Legal & Compliance Actions** — cooperation with regulators, fraud investigations, and user protection measures.  
-- **Token Integrity** — base supply, decimals, and fundamental mint properties.
-
-These areas may use advisory votes, but cannot be directly changed via a simple DAO proposal.
+- A **real sink** for NNC demand.  
+- A testbed for how trust scores can meaningfully improve economic outcomes for honest participants.
 
 ---
 
-## 🛡️ IX. Compliance & Risk Management
+## VII. Engage-to-Earn — “Mining” via Defense Work
 
-- NNC is designed and communicated as a **utility token** for access, rewards, and governance — not as a guaranteed-return financial product.  
-- All yields and rewards are **variable and usage-based**, not fixed income.  
-- As of this revision, **no presale or public sale is live**; any future sale will be subject to KYC/AML and legal review where applicable.  
-- Healthcare and other sensitive data, if ever integrated, must be de-identified and handled under strict privacy standards.  
-- Smart-contract audits are mandatory before deploying or upgrading critical mainnet contracts (router, escrow, marketplace).  
-- Risk buffers may include: POL floors (if used), emission pauses, and rotation of multisig signers.  
-- The project will prioritize security, user protection, and regulatory alignment over rapid expansion.
+### 7.1 Concept
 
-Any future zk-privacy features (the NNC Privacy Router and shielded pool) will be deployed only after legal review and security audits. The design goal is **selective disclosure**, not regulatory evasion: enterprises and, where applicable, users will be able to provide audit trails or view access to authorized parties. If at any point privacy features are found to conflict with local regulations, they may be restricted, geofenced, or disabled by governance and the foundation.
+Traditional mining and staking models reward:
 
----
+- Hash power.  
+- Capital locked in validators.  
 
-## 🔭 X. Industry Case Uses (Overview)
+Engage-to-Earn (E2E) in NNC rewards a different resource:
 
-NNC’s architecture can, in principle, extend into many verticals where **verified human input improves AI outcomes**, including:
+> **Human attention used to defend others from manipulation and fraud.**
 
-- Social & creator economy  
-- Education  
-- Healthcare & clinical research  
-- Agriculture & environmental monitoring  
-- Industrial automation & manufacturing  
-- Supply chain & smart cities  
-- Open science and DeSci  
+Examples of E2E-eligible actions:
 
-However, these are **Phase 3–4 horizon concepts**, not active build targets for Phase 1–2.
+- Reporting scam accounts on supported platforms.  
+- Labeling phishing attempts in inboxes or DMs.  
+- Participating in trust-model evaluations (A/B testing model decisions).  
+- Contributing to open datasets of malicious content.
 
-The near-term focus is strictly on:
+### 7.2 Credits First, Tokens Second
 
-1. The Social-AI Trust Engine (bot / scam / fake-engagement detection).  
-2. The DecentraNet digital marketplace and NNC Fee Router.  
+To prevent abuse and over-issuance:
 
-The following expanded case studies illustrate *how* NNC could be used once the core products are mature — they are **examples**, not guaranteed deliverables or timelines.
+- Users initially earn **off-chain engagement credits**.  
+- Credits are scored for quality and consistency.  
+- At defined epochs, a portion of credits are redeemable for NNC from the **Rewards & Engage-to-Earn** bucket.
 
----
+Guardrails:
 
-## 🏗️ XI. Industry Case Uses — Expanded
+- Per-epoch emission caps.  
+- Reputation-weighted reward multipliers.  
+- Slashing of credits for spammy or malicious reports.
 
-> NeuralNet Coin (NNC) applies its decentralized reward and verification rails to any domain where human input and AI performance intersect.  
-> By removing intermediaries, rewarding transparency, and turning verified participation into a shared asset, NNC can create measurable economic impact across multiple industries — once the foundational phases are proven.
+The exact parameters for E2E emissions are:
+
+- Set by the foundation/DAO initially.  
+- Later refined via governance based on real-world data and sustainability.
 
 ---
 
-### 🏥 Healthcare & Clinical Research — Open Health Rails (Horizon)
+## VIII. Governance
 
-**Problem**
+### 8.1 Model
 
-Healthcare is bloated with intermediaries — insurers, billing processors, and data brokers — that inflate prices and complicate access.  
-Patients pay more while providers receive fragmented incentives and data is often siloed or monetized without transparent benefit sharing.
+NNC uses a **token-weighted governance** model with strong guardrails:
 
-**NNC Concept**
+- **Proposal Threshold:**  
+  - Minimum 5,000 NNC staked to submit proposals, preventing spam.  
 
-- Reward patients, clinicians, and researchers for contributing de-identified data into open research pools.  
-- Use Reputation NFTs to certify ethical data custodians, research groups, and clinical trial operators.  
-- Use NNC as settlement for data access fees, bounties for rare-disease data, and verified outcome reporting.
+- **Quorum:**  
+  - Minimum percentage of staked NNC required for a vote to be valid.  
 
-**Status:** Horizon (Phase 3–4). No live deployments planned until core products are stable and legal frameworks are clear.
+- **Timelocks for Critical Changes:**  
+  - Certain sensitive actions (e.g., treasury movements, emission changes) include a delay before enactment.
 
----
+Decisions are recorded on-chain wherever possible, with off-chain signaling (forums, discussions) providing context and debate.
 
-### 🎨 Social & Creator Economy
+### 8.2 What Governance Controls
 
-**Problem**
+Examples:
 
-Social platforms and streaming services capture nearly all advertising and subscription revenue.  
-Creators, moderators, and contributors receive only fragments. Algorithms prioritize sensationalism and clickbait.
+- Adjusting emission schedules within bounded ranges.  
+- Allocating treasury funds to grants, audits, or partnerships.  
+- Modifying E2E reward rules and trust-scoring weighting.  
+- Enabling or updating new fee routes in the NNC Fee Router.
 
-**NNC Concept**
+Governance **cannot**:
 
-- Reward authentic engagement (comments, curation, moderation) via Engage-to-Earn credits.  
-- Provide Social-AI Trust Engine APIs for platforms to filter out bots and synthetic engagement.  
-- Allow verified communities to use DecentraNet for direct creator-to-fan services using NNC.
-
----
-
-### 🎓 Education & Lifelong Learning
-
-**Problem**
-
-Education data is fragmented; good teaching and peer support are undervalued.  
-Students and teachers rarely share in the value created when their data is used to train educational AI systems.
-
-**NNC Concept**
-
-- Reward teachers and students for high-signal contributions to AI-tutoring systems.  
-- Use reputation layers to certify course creators and peer reviewers.  
-- Let education platforms subscribe to trust feeds that detect cheating rings and bot farms.
+- Arbitrarily seize user funds.  
+- Retroactively change allocated/vested supply.  
+- Override legal constraints in applicable jurisdictions.
 
 ---
 
-### 🌾 Agriculture & Environmental Monitoring
+## IX. Roadmap (High-Level, Subject to Change)
 
-**Problem**
+This roadmap is **aspirational**, not a guarantee. Execution depends on:
 
-Small farmers and environmental observers produce critical local data but rarely benefit economically.  
-Industrial players often capture the insights and value downstream.
+- Available capital.  
+- Contributor bandwidth.  
+- Market conditions and regulatory clarity.
 
-**NNC Concept**
+### Phase 1 — Foundations (In Progress)
 
-- Reward verified data submissions (soil readings, pest reports, weather anomalies, conservation data).  
-- Provide trust scoring to distinguish real field data from synthetic or spoofed feeds.  
-- Enable cooperatives and DAOs to manage shared datasets and negotiate access using NNC.
+- Finalize token infrastructure, metadata, and explorer integrations.  
+- Ship early prototypes of:
+  - Social-AI Trust Engine (off-chain models).  
+  - Basic reporting pipelines and engagement credit accounting.  
+- Launch the first version of DecentraNet (digital-services focus).  
 
----
+### Phase 2 — Social-AI Integration & Brand Pilots
 
-### 🏭 Industrial Automation & Smart Cities
+- Harden detection models against adversarial behaviors.  
+- Build dashboards and interfaces for brands and communities.  
+- Onboard pilot partners to pay for trust filtering in NNC.  
+- Integrate Engage-to-Earn flows for early users.
 
-**Problem**
+### Phase 3 — Scaling the Trust Layer
 
-Industrial and city-scale systems rely on opaque vendor stacks, fragmented telemetry, and closed data loops.
+- Expand DecentraNet into “phygital” commerce (physical goods + digital reputation).  
+- Develop more advanced ML and graph models for complex fraud campaigns.  
+- Integrate with more external platforms, bots, and tools.
 
-**NNC Concept**
+### Phase 4+ — Open Ecosystem & Creator Tools
 
-- Use NNC-based attestations for machine logs, maintenance events, and anomaly reports.  
-- Reward workers and citizen observers for verifiable reports that improve AI-driven infrastructure.  
-- Provide trust-engine integrations that score IoT and sensor data for reliability.
-
----
-
-### 🔬 Open Science & DeSci
-
-**Problem**
-
-Scientific incentives often reward publication volume over reproducibility and openness.  
-Data and code are siloed; reviewers and replicators are under-incentivized.
-
-**NNC Concept**
-
-- Reward peer reviewers, replicators, and open-data contributors with Engage-to-Earn credits.  
-- Use Reputation NFTs to certify trustworthy labs, reviewers, and curators.  
-- Allow research DAOs to run bounties and grant programs denominated in NNC.
+- Release SDKs and APIs for third-party builders.  
+- Launch NNC-powered AI creator and agent tooling.  
+- Experiment with non-transferable **Reputation NFTs** anchored in long-term positive behavior.
 
 ---
 
-## 🚀 XII. Roadmap — Phase-Aligned Execution
+## X. Risk Disclosures
 
-Timelines below are **indicative only** and assume a small, focused team with limited early funding.  
-Security, correctness, and sustainability take priority over speed.
+NNC is a high-risk, experimental project. Participants should understand that:
 
-| Horizon | Approx. Window | Focus | Examples of Milestones |
-|:--|:--|:--|:--|
-| Phase 1 — Foundations | Years 1–2 | Core Social-AI & payments | Trust Engine alpha/beta, NNC Fee Router live, DecentraNet digital marketplace operational, first Engage-to-Earn tests |
-| Phase 2 — Hardening & Phygital | Years 2–3 | Reliability + selective real-world commerce | Vendor verification, basic reputation scores, selective phygital vendors with NFT receipts, first small B2B trust-engine customer |
-| Phase 3 — Industry Pilots | Years 3–5 | Focused pilots in 1–2 verticals | Limited-scope pilots in e.g. creator economy or research; early platform integrations with Social-AI trust signals; zk-privacy research and test deployments (NNC Privacy Router). |
-| Phase 4 — Multi-Industry Expansion | Years 5+ | Expansion where it makes sense | Gradual extension into healthcare, education, smart cities, agriculture, DeSci, etc., based on proven demand and capacity |
+1. **Execution Risk**  
+   - The team may fail to deliver certain features, integrations, or products outlined here.  
 
-This roadmap is **not a guarantee**, but a directional guide.  
-The project will only move into new phases when the previous phase is stable, audited where necessary, and delivering real usage.
+2. **Adoption Risk**  
+   - Brands, users, or platforms may not adopt the Trust Engine or DecentraNet at scale.  
 
----
+3. **Regulatory Risk**  
+   - Changes in law may impact product scope, token distribution, or geographic availability.  
 
-## 💼 XIII. Market Integrity & Listing Readiness
+4. **Market Risk**  
+   - NNC’s price can be extremely volatile. There is no guarantee of profit, liquidity, or long-term value.  
 
-- Mint and freeze authorities permanently disabled post-audit (or restricted behind robust governance) to protect supply integrity.  
-- Any future presale will use whitelisting and caps to avoid concentration and unfair advantage.  
-- POL (if used) and treasury holdings should be transparent and verifiable on-chain.  
-- DEX/CEX liquidity should be deployed progressively to avoid MEV exploitation and to protect long-term participants.
+5. **Security Risk**  
+   - Smart contract vulnerabilities or operational failures can lead to loss of funds.  
 
----
+Nothing in this document is:
 
-## 🧱 XIV. Treasury & POL Policy v1.0
+- Investment advice.  
+- A guarantee of returns.  
+- A promise that any particular milestone will be reached on a fixed schedule.
 
-**Objectives**: Maintain ≥ 24-month runway and stable liquidity over speculation.  
+Participants should:
 
-**Targets (Illustrative)**:  
-- Balanced NNC/SOL and NNC/stablecoin positions sufficient to fund audits, infrastructure, and basic operations.  
-
-**Use of Funds**:  
-- Security (audits, bug bounties, monitoring).  
-- Core infrastructure and engineering.  
-- Grants and ecosystem support.  
-- Optional, surplus-only buybacks and burns when justified by fundamentals.
+- Consult their own legal, financial, and tax advisors.  
+- Only commit capital they can afford to lose.  
+- Treat NNC as a long-horizon experiment in economic coordination and AI-augmented trust.
 
 ---
 
-## 🧩 XV. Integrity & Anti-Sybil Framework
+## XI. Conclusion
 
-- Identity verification primitives (where appropriate) and device binding.  
-- Engage-to-Earn caps (e.g., per-day and per-week) tuned per epoch.  
-- Anomaly detection for multi-accounting, bot swarms, and wash behavior.  
-- Violations can result in loss of credits, denial of future rewards, and—where justified—blacklisting at the trust-engine level.
+NeuralNet Coin proposes a different direction for crypto and AI:
 
----
+- Instead of using AI to **exploit attention** and farm engagement, use it to **defend attention** and reward those who help.  
+- Instead of creating yet another speculative token with opaque tokenomics, create **clear, anti-rug structures** with long-term vesting and transparent supply.  
+- Instead of focusing solely on DeFi or trading, position NNC as a **trust utility** that can plug into social platforms, marketplaces, and retail funnels.
 
-## 🔒 XVI. Threat Model & Bug Bounty
+If the Social-AI Trust Engine succeeds, NNC becomes:
 
-**Scope**
+- A native unit of account for **credible attention and trust filtering**.  
+- A reward mechanism for **network defenders**.  
+- A governance tool for steering the evolution of decentralized trust infrastructure.
 
-- Core token and Token-2022 extensions.  
-- NNC Fee Router, escrow, and marketplace smart-contracts.  
-- Treasury and governance modules.  
-- Off-chain services that directly affect balances or rewards.
+If it fails, we will at least have:
 
-**Bug Bounty Principles**
+- Tested a new way to align AI, economic incentives, and human behavior in defense of the most vulnerable users online.  
 
-- Severity-based rewards (e.g., critical, high, medium, low).  
-- Clear disclosure guidelines and safe-harbor conditions.  
-- Mix of NNC and stablecoin payouts when possible.  
+The long-term value of NNC is directly tied to:
 
-Exact bounty tiers will be published closer to mainnet deployment of each critical component.
+- The real-world effectiveness of the Trust Engine.  
+- The willingness of brands and users to pay for — and rely on — its outputs.  
+- The integrity and persistence of its contributors and governance.
 
 ---
 
-## 📈 XVII. Economic Stress Testing
+## Appendix A — Key Definitions
 
-Before scaling to large audiences or major partnerships, the NNC economy should be stress-tested under:
+- **Social-AI Economy**  
+  An economic system where AI models are trained and deployed primarily to improve the quality, safety, and authenticity of social interactions, not just to maximize attention.
 
-- Volume shocks (± 50 % or more).  
-- Variations in router usage (high vs. low fee flows).  
-- Reward scenarios (aggressive vs. conservative Engage-to-Earn).  
-- Adverse market conditions (drawdowns in SOL and broad crypto).  
+- **Engage-to-Earn (E2E)**  
+  A framework in which users earn credits — and eventually NNC — by actively defending the network (reporting scams, labeling data, etc.).
 
-Results of these tests should guide:
+- **Trust Engine**  
+  The combined AI, rules, data pipelines, and human oversight that analyze interactions and produce risk scores, trust scores, and explanations.
 
-- Treasury runway planning.  
-- Emission schedules.  
-- Engage-to-Earn redemption caps.  
-- Decisions to enable or disable optional modules (e.g., staking).
+- **DecentraNet**  
+  The NNC-powered marketplace for digital and phygital goods and services, enhanced by Social-AI trust overlays.
 
 ---
 
-## 🧪 XVIII. Pilot Program Template
+## Appendix B — Example Use Cases
 
-For any new vertical or major integration, pilots should:
+1. **Retail Brand Ad Spend Filtering**  
+   - A brand integrates with the Trust Engine before paying out influencers or ad networks.  
+   - NNC-based service flags which impressions were likely human, likely bot, or clearly fraudulent.  
+   - The brand adjusts payouts based on trust-adjusted engagement.
 
-1. Define a clear **problem statement** and expected KPI impact.  
-2. Specify participants: users, moderators, vendors, platforms.  
-3. Outline trust-engine integration (what gets scored and why).  
-4. Set conservative NNC budgets and duration.  
-5. Include pre-agreed conditions for success, extension, or shutdown.  
+2. **Creator Economy Defense**  
+   - Creators embed NNC-powered widgets into their funnels.  
+   - High-risk inbound messages are flagged, and fans are guarded from impersonators.  
 
-This keeps experiments controlled and protects both users and treasury.
-
----
-
-## 🌐 XIX. Community & Brand Ethos
-
-NeuralNet Coin aims to stand for:
-
-- **Integrity over hype.**  
-- **Utility over speculation.**  
-- **Clear limits over vague promises.**
-
-Community standards emphasize:
-
-- Zero tolerance for scams, paid shills, and astroturfing.  
-- Respectful debate and critical thinking.  
-- Builders, researchers, and serious contributors over noise.  
-
-NNC’s brand is intentionally **anti-rug, anti-casino, and anti-fake engagement**.
+3. **Community & DAO Defense**  
+   - DAOs use trust scores and scam detection to filter who can post, propose, or interact with critical infrastructure.  
+   - Engage-to-Earn incentives reward members who help keep the community safe.
 
 ---
 
-## 🔮 XX. Future Outlook
+## Appendix C — Governance Parameters (Illustrative)
 
-The long-term vision for NNC is to:
+These parameters are subject to change through governance, but may start as:
 
-- Become a **default trust and reward layer** for parts of the internet that matter.  
-- Power a **decentralized marketplace** (DecentraNet) that treats fraud detection as a first-class feature.  
-- Support a **Social-AI economy** where people share in the value they help create.
+- **Proposal Threshold:** 5,000 NNC staked.  
+- **Quorum:** 7–10 % of staked supply.  
+- **Timelock (Treasury Actions):** 72 hours.  
+- **Timelock (Protocol Parameters):** 7 days.  
 
-Exactly how far this reaches — into healthcare, education, smart cities, and beyond — depends on the success of Phase 1–2 and the ability to execute with discipline.
+All such changes are tracked transparently in:
 
----
-
-## Appendix A — Key Terms
-
-- **NNC:** NeuralNet Coin, the native token of the ecosystem.  
-- **Token-2022:** An extended Solana token standard with additional functionality.  
-- **Router Fee:** 3 % capped fee (max 25 NNC/tx) applied on defined ecosystem flows via the NNC Fee Router.  
-- **Engage-to-Earn (E2E):** Off-chain engagement credit system redeemable into NNC.  
-- **DecentraNet:** Marketplace layer for digital and, later, phygital commerce using NNC.  
-- **Reputation NFT:** Non-transferable credential verifying ethical and valuable contribution.  
-- **DAO:** Decentralized Autonomous Organization for non-critical governance.  
-- **Attester:** Verified oracle or service that validates human activity or data.
+- On-chain governance records.  
+- Public documentation repositories (e.g., GitHub).  
+- Community communication channels.
 
 ---
 
-## Appendix B — Glossary of Acronyms
+## Appendix D — Token-2022 Mint Configuration (On-Chain Facts)
 
-- **POL:** Protocol-Owned Liquidity.  
-- **E2E:** Engage-to-Earn reward framework.  
-- **KYC/AML:** Know Your Customer / Anti-Money Laundering.  
-- **DeSci:** Decentralized Science.  
+NNC is issued as a Solana Token-2022 mint with the following core properties:
 
----
+- **Mint Address:** `BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF`  
+- **Total Supply:** 1,000,000,000 NNC (fixed)  
+- **Decimals:** 9  
 
-## Appendix C — Legal & Forward-Looking Statements
+Key design decisions:
 
-This whitepaper is for informational purposes only. NeuralNet Coin (NNC) does not represent, and should not be interpreted as, legal, financial, investment, or tax advice.
+1. **Fixed Supply, No Hidden Inflation**  
+   - The Token-2022 mint is configured such that total supply is fixed.  
+   - Any future migrations, if ever needed, would require explicit on-chain evidence and community approval.
 
-Participation in the NNC ecosystem may involve risk, including potential loss of value.  
-No part of this document constitutes a promise of profit, guaranteed yield, or appreciation of token price.
+2. **Authority Configuration**  
+   - Mint authority, freeze authority, and metadata update authority are configured to remove unilateral control once initial setup is complete (see public records on Solana explorers).  
 
-Regulatory treatment of digital assets continues to evolve.  
-Any future token sale, listing, or major deployment will be evaluated in light of applicable laws and guidance at that time.
+3. **Metadata Immutability**  
+   - Token name, symbol, and logo metadata are hosted via IPFS and referenced by the on-chain metadata account.  
+   - Changes to these references are either impossible or strongly gated, depending on final configuration.
 
-All forward-looking statements — including roadmaps, partnerships, and potential industry applications — are inherently uncertain and subject to change.  
-Actual results may differ materially from those expressed or implied.
+The exact authority status and metadata configuration can be verified on:
 
-Use of NNC and interaction with any smart-contracts or platforms built on this ecosystem is at the participant’s own risk.  
-Compliance with local laws remains the responsibility of each participant.
+- Solscan  
+- SolanaFM  
+- Solana Explorer  
 
----
-
-## Appendix D — NeuralNet Coin (NNC) Mint Transparency Report
-
-To provide verifiable assurance about the immutability and fixed configuration of the NeuralNet Coin Token-2022 mint, the following parameters are publicly confirmed on-chain.
+These on-chain facts supersede any off-chain claim. If discrepancies arise, **on-chain records are the source of truth**.
 
 ### D.1 Mint Configuration
 
@@ -698,18 +561,16 @@ To provide verifiable assurance about the immutability and fixed configuration o
 | Identity | Immutable Metadata |
 
 NeuralNet Coin’s mint configuration is permanently locked:  
-- No new supply can be created.  
-- No token accounts can be frozen via mint-level authority.  
-- No metadata can be altered through a mutable update authority.  
+no one — including the original deployer — can mint additional tokens, change decimals, or silently alter the token’s identity.
 
-This ensures a transparent and tamper-resistant foundation for the NNC ecosystem.
+---
 
-### D.2 Public Verification Links
+## Appendix E — Reference Links
 
-These links allow anyone to independently verify the above properties:
+**On-Chain & Explorer Links**
 
-- **Solscan**  
-  `https://solscan.io/token/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF
+- **Solscan (Token)**  
+  `https://solscan.io/token/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF`
 
 - **SolanaFM (Token)**  
   `https://solana.fm/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF`
