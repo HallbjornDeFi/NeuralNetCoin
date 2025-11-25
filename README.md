@@ -40,7 +40,7 @@ This repository is the canonical source for NeuralNet Coin documentation:
 
 - **Whitepaper (2026 Edition — “Social AI First”, Rev 4)**  
   `NNC_WHITEPAPER_2026_UPDATED.md`  
-  - Full tokenomics (1B supply, 9 decimals, 2.5% founder allocation).  
+  - Full tokenomics (1B supply, 9 decimals, 3% founder allocation).  
   - Social-AI Trust Engine & DecentraNet design.  
   - Engage-to-Earn credit-to-NNC model.  
   - Governance boundaries (what the DAO can and cannot control).  
