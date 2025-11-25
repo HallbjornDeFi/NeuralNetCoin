@@ -408,8 +408,9 @@ https://explorer.solana.com/address/BhwvuTEBCdYYCUVWSCmpekG42TrpNQxNUGHyR5rQtxtF
 
 ## 🔗 Official Links
 
-[Discord](https://discord.gg/qXyP3UrJ)  
-[X (Twitter)](https://x.com/NeuralNetCoin)
-[Telegram](https://t.me/NeuralNetApp)
+- **Discord** (https://discord.gg/qXyP3UrJ)  
+- **X (Twitter)** (https://x.com/NeuralNetCoin)
+- **Telegram** (https://t.me/NeuralNetApp)
+- **Substack** (https://open.substack.com/pub/neuralnetcoin/p/the-ethics-of-code-cryptos-lost-purpose?r=6rzj1w&utm_medium=ios)
 
 © 2026 NeuralNet Coin DAO · All Rights Reserved
