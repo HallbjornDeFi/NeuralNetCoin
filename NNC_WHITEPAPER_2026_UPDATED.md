@@ -13,7 +13,8 @@ NeuralNet Coin (NNC) powers a **Social-AI Economy** — an open ecosystem where:
 
 - AI systems help humans navigate an information environment dominated by bots, scams, and noise.  
 - Human effort to defend others from fraud and manipulation is economically rewarded.  
-- Brands and creators gain programmable trust rails that filter engagement before capital is deployed.  
+- Brands and creators gain programmable trust rails that filter engagement before capital is deployed.
+- A protocol-agnostic Social-AI trust rail and rewards layer. Individual platforms, marketplaces, or apps integrate as clients of this protocol.  
 
 The long-term vision is to transform “engagement” from a superficial metric into **verifiable proof of human, high-signal interaction**.
 
