@@ -14,8 +14,8 @@ NeuralNet Coin (NNC) powers a **Social-AI Economy** — an open ecosystem where:
 - AI systems help humans navigate an information environment dominated by bots, scams, and noise.  
 - Human effort to defend others from fraud and manipulation is economically rewarded.  
 - Brands and creators gain programmable trust rails that filter engagement before capital is deployed.
-- A protocol-agnostic Social-AI trust rail and rewards layer. Individual platforms, marketplaces, or apps integrate as clients of this protocol.  
-
+- NeuralNet Coin is not a feature of any single platform. It is a neutral, cross-platform Social-AI trust rail and rewards layer designed to operate across social networks, messaging apps, marketplaces, and future communication surfaces. Platforms integrate as data sources and clients, while NNC remains an independent infrastructure layer that continuously scores behavior, aligns incentives, and rewards human signal.
+  
 The long-term vision is to transform “engagement” from a superficial metric into **verifiable proof of human, high-signal interaction**.
 
 NNC is built on **Solana’s Token-2022 standard**, taking advantage of:
@@ -107,6 +107,10 @@ NNC enables:
 - Users (defending)  
 - Treasury (sustaining)  
 
+### 3.3 Global Identity and Portable Reputation
+
+NeuralNet Coin introduces a wallet-anchored global identity and portable reputation layer. Participants can link multiple platform accounts (social profiles, marketplace accounts, messaging handles) to a single Solana wallet. The Social-AI Engine aggregates behavior across these sources to compute a global NNC trust score. This score is portable: it is not tied to any one website or application and can be referenced by any integration that supports NNC, including future platforms that do not yet exist.
+
 ---
 
 ## IV. Token Design & Economics
@@ -172,6 +176,7 @@ This is the **only official treasury**.
 ---
 
 ## VI. Social-AI Trust Engine Architecture
+If individual platforms deploy their own bot, spam, or fraud filters, these are treated as complementary inputs to the NeuralNet Coin Social-AI Engine rather than competitors. Platform-native risk signals, suspension flags, and internal scores can be ingested alongside behavioral events, graph structure, and human reports. NNC then produces its own independent, cross-platform trust scores that remain portable and verifiable outside any single company’s ecosystem.
 
 ### 6.1 Inputs  
 - User reports  
@@ -198,7 +203,10 @@ This is the **only official treasury**.
 - Social bots  
 - Brand dashboards  
 - Marketplace overlays  
-- APIs  
+- APIs
+
+ ### 6.5 Extensibility and Future-Proof Data Model
+The NNC data model and APIs are intentionally generic: actors, events, and trust scores are defined in a way that supports new platforms, new content formats, and new fraud patterns without redesigning the protocol. As new environments emerge—social networks, chat systems, virtual worlds, commerce protocols—NNC can integrate them as additional data sources while preserving a consistent global reputation and rewards model. This design aims to maximize the long-term usefulness of NNC, independent of any specific company, product, or transport layer.
 
 ---
 
@@ -237,7 +245,10 @@ Rewards real defensive labor:
 - Credits are scored  
 - Emitted to NNC via capped epochs  
 - Reputation-weighted  
-- Slashing for abuse  
+- Slashing for abuse
+
+### 8.3 Platform-Agnostic Reward Layer
+The Engage-to-Earn mechanism is defined at the protocol level and does not depend on any single platform. High-signal human behavior—such as reporting scams, identifying coordinated spam, contributing factual content, and participating in data labeling—is measured by the Social-AI Engine and converted into off-chain contribution credits. These credits are redeemable for NNC via the protocol’s fee and rewards router. Any integrated application can generate qualifying events; the reward logic remains the same, ensuring that human signal is always economically recognized regardless of where it originates.
 
 ---
 
@@ -282,6 +293,10 @@ To ensure long-term sustainability, the following remain under exclusive control
 - Security-critical backend systems  
 
 These restrictions guarantee that NNC’s primary revenue engine cannot be voted into insolvency by short-term actors.
+
+### 9.4 Neutrality and Multi-Platform Mandate
+
+Protocol governance is constrained by a neutrality requirement: NeuralNet Coin must remain a platform-agnostic infrastructure layer. Proposals that would make NNC exclusive to a single platform, or that would materially degrade support for multi-platform integrations, are considered out of scope for the protocol. The DAO is mandated to preserve NNC’s role as a neutral Social-AI trust and rewards rail that any compliant application can integrate, now or in the future.
 
 ---
 
