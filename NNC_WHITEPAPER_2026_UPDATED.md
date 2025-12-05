@@ -300,7 +300,7 @@ Protocol governance is constrained by a neutrality requirement: NeuralNet Coin m
 
 ---
 
-### X. Industry Case Uses
+## X. Industry Case Uses
 
 NeuralNet Coin (NNC) is not designed as a single-purpose “app token.” It is a coordination and incentive layer for AI-assisted decision systems across multiple domains where information asymmetry, spam, and misaligned incentives cause real economic damage.
 
